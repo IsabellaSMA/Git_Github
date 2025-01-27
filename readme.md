@@ -17,18 +17,27 @@ VCS (sistema de controle de versão) ou SCM (Gerenciamento de Configuração de 
 * Criar branches, em que as alterações podem ser feitas de maneira experimental. Esse recurso permite que vários conjuntos diferentes de alterações (por exemplo, recursos ou correções de bug) sejam trabalhados ao mesmo tempo, possivelmente por pessoas diferentes, sem afetar a ramificação principal. Assim como a possibilidade de mesclar as alterações que deseja manter na ramificação principal.
 * Anexar uma marca a uma versão, por exemplo, para marcar uma nova versão.
 
-### Controle de versão distribuído
-As instâncias anteriores dos VCSs, como o CVS, o Subversion (SVN) e o Perforce, usavam um servidor centralizado para armazenar o histórico de um projeto. Essa centralização significava que o único servidor também era, potencialmente, um ponto único de falha.
-
-O Git é distribuído, o que significa que o histórico completo de um projeto é armazenado no cliente e no servidor. Você pode editar arquivos sem uma conexão de rede, verificá-los localmente e sincronizá-los com o servidor quando uma conexão fica disponível. Se um servidor ficar inativo, você ainda terá uma cópia local do projeto. Tecnicamente, você nem precisa ter um servidor. As alterações podem ser passadas por email ou compartilhadas por uma mídia removível, mas ninguém usa o Git dessa maneira na prática.
+<details>
+  <summary> Controle de versão distribuído</summary> <br>
+    <p > O Git é distribuído, o que significa que o histórico completo de um projeto é armazenado no cliente e no servidor. Você pode editar arquivos sem uma conexão de rede, verificá-los localmente e sincronizá-los com o servidor quando uma conexão fica disponível. Se um servidor ficar inativo, você ainda terá uma cópia local do projeto. Tecnicamente, você nem precisa ter um servidor. As alterações podem ser passadas por email ou compartilhadas por uma mídia removível, mas ninguém usa o Git dessa maneira na prática
+    </p>
+</details>
+ 
 
 ### Terminologia
 
-Árvore de trabalho:
-Repositório:
-Hash:
-Objeto:
-Commit:
-Branch:
-Repositório Remoto:
-Comandos, Subcomandos e opções:
+* Árvore de trabalho: Conjunto de diretórios e arquivos aninhados que contém o projeto no qual está sendo feito o trabalho;
+  
+* Repositório: O diretório. Mantém todo o histórico e os metadados de um projeto. Repositório Simples: não faz parte de uma árvore de trabalho é usado para compartilhamento ou backup. Geralmente é um diretório que termina com .git (ex. project.git)
+  
+* Hash: 
+  
+* Objeto:
+  
+* Commit:
+  
+* Branch:
+  
+* Repositório Remoto:
+  
+* Comandos, Subcomandos e opções:
