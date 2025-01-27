@@ -1,4 +1,4 @@
-<h1 align=center> Curso de Git </h1>
+<h1 align=center img href=""> Curso de Git </h1>
 <br>
 
 <h2 align= center>História</h2>
@@ -49,6 +49,13 @@ VCS (sistema de controle de versão) ou SCM (Gerenciamento de Configuração de 
   
 * #### *Comandos, Subcomandos e opções*:
     As operações do git são realizadas por meio de comandos. git é o comando principal e o que vem depois é o subcomando, especificando a operação que você deseja que o git execute  (ex. git push). Os comandos são frequentemente acompanhados por hífens simples (ex git commit -m "meu commit") ou duplos (git reset-- hard)
+
+## Git vs Github: Qual a diferença? 
+
+**Git** é um DVCS (sistema de controle de versão distribuído) que pode ser usado por vários desenvolvedores e outros colaboradores para trabalhar em um projeto. Ele fornece um modo de trabalhar com um ou mais branches locais e os envia por push para um repositório remoto.
+
+**GitHub** é uma plataforma de nuvem e o repositório remoto que usa o Git como sua tecnologia principal. O GitHub simplifica o processo de colaboração em projetos e fornece um site, mais ferramentas de linha de comando e um fluxo geral que pode ser usado pelos desenvolvedores e pelos usuários para trabalhar juntos.
+
 
 [^1]: função de Hash: fórmula matemática que pega os dados e gera essa "impressão digital",transformando dados de qualquer tamanho em um código de tamanho fixo (o hash).
 [^2]: Exemplo: Imagine um Readme e nele é adicionado a frase "Olá, mundo!", nisto a função de Hash gera um código (ex. 123abc); Voltando no mesmo arquivo e se for feito uma alteração exemplo "Olá, Mundo!", mesmo que seja sutil, a funçã de hash cria um novo código para esta mudança (ex. 456def).
