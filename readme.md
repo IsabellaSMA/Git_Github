@@ -21,3 +21,14 @@ VCS (sistema de controle de versão) ou SCM (Gerenciamento de Configuração de 
 As instâncias anteriores dos VCSs, como o CVS, o Subversion (SVN) e o Perforce, usavam um servidor centralizado para armazenar o histórico de um projeto. Essa centralização significava que o único servidor também era, potencialmente, um ponto único de falha.
 
 O Git é distribuído, o que significa que o histórico completo de um projeto é armazenado no cliente e no servidor. Você pode editar arquivos sem uma conexão de rede, verificá-los localmente e sincronizá-los com o servidor quando uma conexão fica disponível. Se um servidor ficar inativo, você ainda terá uma cópia local do projeto. Tecnicamente, você nem precisa ter um servidor. As alterações podem ser passadas por email ou compartilhadas por uma mídia removível, mas ninguém usa o Git dessa maneira na prática.
+
+### Terminologia
+
+Árvore de trabalho:
+Repositório:
+Hash:
+Objeto:
+Commit:
+Branch:
+Repositório Remoto:
+Comandos, Subcomandos e opções:
