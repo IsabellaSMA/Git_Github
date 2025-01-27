@@ -30,24 +30,24 @@ VCS (sistema de controle de versão) ou SCM (Gerenciamento de Configuração de 
    Conjunto de diretórios e arquivos aninhados que contém o projeto no qual está sendo feito o trabalho; 
   
 * #### *Repositório*:
-  O diretório. Mantém todo o histórico e os metadados de um projeto. Repositório Simples: não faz parte de uma árvore de trabalho é usado para compartilhamento ou backup. Geralmente é um diretório que termina com .git (ex. project.git)
+   O diretório. Mantém todo o histórico e os metadados de um projeto. Repositório Simples: não faz parte de uma árvore de trabalho é usado para compartilhamento ou backup. Geralmente é um diretório que termina com .git (ex. project.git)
 
 * #### *Hash*:
- Produzido por uma Função de Hash[^1] . Um hash é como uma impressão digital para dados. É um número gerado a partir do conteúdo de um arquivo ou mensagem. Cada pequeno detalhe dos dados produz um hash único. Se qualquer parte do conteúdo muda, o hash também muda.
+   Produzido por uma Função de Hash[^1] . Um hash é como uma impressão digital para dados. É um número gerado a partir do conteúdo de um arquivo ou mensagem. Cada pequeno detalhe dos dados produz um hash único. Se qualquer parte do conteúdo muda, o hash também muda.
   
 * #### *Objeto*:
-  há quatro tipos dentro de um repositório,cada um identificado por um hash SHA-1. Um objeto de blob contém um arquivo comum. Um objeto de árvore representa um diretório; ele contém nomes, hashes e permissões. Um objeto de commit representa uma versão específica da árvore de trabalho. Uma marca é um nome anexado a um commit.
+   Há quatro tipos dentro de um repositório,cada um identificado por um hash SHA-1. Um objeto de blob contém um arquivo comum. Um objeto de árvore representa um diretório; ele contém nomes, hashes e permissões. Um objeto de commit representa uma versão específica da árvore de trabalho. Uma marca é um nome anexado a um commit.
   
 * #### *Commit*:
-  adicionar uma atualização no projeto e "avisar" aos outros colaboradores através da seção de comentários o que foi feito e/ou a linha de raciocínio usada.
+    Adicionar uma atualização no projeto e "avisar" aos outros colaboradores através da seção de comentários o que foi feito e/ou a linha de raciocínio usada.
   
 * #### *Branch*:
-  Uma espécie de linha do tempo editavel. Cada branch representa uma versão separada do seu código onde você pode fazer alterações sem afetar a linha principal (geralmente chamada de main ou master). Isso permite que diferentes funcionalidades sejam desenvolvidas de forma independente e depois unidas novamente à linha principal através de um processo chamado merge.  
+    Uma espécie de linha do tempo editavel. Cada branch representa uma versão separada do seu código onde você pode fazer alterações sem afetar a linha principal (geralmente chamada de main ou master). Isso permite que diferentes funcionalidades sejam desenvolvidas de forma independente e depois unidas novamente à linha principal através de um processo chamado merge.  
   
 * #### *Repositório Remoto*:
-  referência nomeada a outro repositório Git. Quando repositório é criado no Github, o Git cria um repositório remoto chamado origin, que é o repositório remoto padrão das operações de push e pull.
+  Referência nomeada a outro repositório Git. Quando repositório é criado no Github, o Git cria um repositório remoto chamado origin, que é o repositório remoto padrão das operações de push e pull.
   
 * #### *Comandos, Subcomandos e opções*:
-  as operações do git são realizadas por meio de comandos. git é o comando principal e o que vem depois é o subcomando, especificando a operação que você deseja que o git execute  (ex. git push). Os comandos são frequentemente acompanhados por hífens simples (ex git commit -m "meu commit") ou duplos (git reset-- hard)
+    As operações do git são realizadas por meio de comandos. git é o comando principal e o que vem depois é o subcomando, especificando a operação que você deseja que o git execute  (ex. git push). Os comandos são frequentemente acompanhados por hífens simples (ex git commit -m "meu commit") ou duplos (git reset-- hard)
 
 [^1]: função de Hash: fórmula matemática que pega os dados e gera essa "impressão digital",transformando dados de qualquer tamanho em um código de tamanho fixo (o hash).   
