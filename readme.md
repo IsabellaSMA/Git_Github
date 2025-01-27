@@ -1,9 +1,16 @@
-<h1 align=center img href=""> Curso de Git </h1>
+<p align= center>
+  <img src="https://i1.wp.com/taaism.com/wp-content/uploads/2016/03/git-logo.png?fit=300%2C125">
+</p>
 <br>
 
-<h2 align= center>História</h2>
-<p align=center> O autor principal é Linus Torvalds, o criador do Linux. </p>
+# 
 
+<h3 align= center>História</h3>
+
+<p align=center> Projetado para ser rápido, eficiente e permitir que vários desenvolvedores trabalhassem em diferentes partes do projeto ao mesmo tempo. Git foi criado por Linus Torvalds em 2005, o criador também do Linux. O Git foi desenvolvido para resolver problemas de controle de versão no desenvolvimento do kernel do Linux. Antes do Git, a comunidade do Linux usava um sistema chamado BitKeeper, mas quando a relação entre a comunidade e os desenvolvedores do BitKeeper quebrou, Linus decidiu criar seu próprio sistema de controle de versão. 
+</p>
+
+#
 
 <h3> O que é controle de Versão? </h3>
 VCS (sistema de controle de versão) ou SCM (Gerenciamento de Configuração de Software) é um programa ou um conjunto de programas que controla as alterações feitas em uma coleção de arquivos.
