@@ -12,4 +12,5 @@ Incluir uma mensagem com cada alteração para explicar o raciocínio por trás 
 Recuperar as versões anteriores de todo o projeto ou de arquivos individuais.
 Criar branches, em que as alterações podem ser feitas de maneira experimental. Esse recurso permite que vários conjuntos diferentes de alterações (por exemplo, recursos ou correções de bug) sejam trabalhados ao mesmo tempo, possivelmente por pessoas diferentes, sem afetar a ramificação principal. Posteriormente, você pode mesclar as alterações que deseja manter na ramificação principal.
 Anexar uma marca a uma versão, por exemplo, para marcar uma nova versão.
+ O autor principal é Linus Torvalds, o criador do Linux.
 
