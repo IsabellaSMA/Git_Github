@@ -28,7 +28,9 @@ subistitua  <USER_EMAIL> pelo seu endereço de email
 
 Para verificar se as alterações funcionaram: *git config --list*
 
-Confirme se a saída inclui duas linhas semelhantes ao exemplo a seguir: Seu nome e seu endereço de email serão diferentes do que é mostrado no exemplo: user.name=User Name
+Confirme se a saída inclui duas linhas semelhantes ao exemplo a seguir: 
+
+user.name=User Name
 user.email=user-name@contoso.com
 
 ## Configurar repositório Git
