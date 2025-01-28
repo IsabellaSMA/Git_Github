@@ -22,22 +22,26 @@ obs* se vc quer que todos os arquivos sejam selecionados no git, coloque o coman
 Para verificar novamente se o Git está instalado, digite: *`git --version`*
 
 
-
-
-Para configurar o Git, é necessário definir algumas variáveis globais como user.name e user.email. As duas são necessárias para fazer commits
+Para configurar o Git, é necessário definir algumas variáveis globais como *user.name* e *user.email* . As duas são necessárias para fazer commits
 
 ### Definir o nome: 
-Substitua <USER_NAME> pelo nome de usuário que deseja usar.
+Git Bash 
+
+`git config --global user.name "<USER_NAME>"` 
+* Substitua <USER_NAME> pelo nome de usuário que deseja usar.
+
 
 ### Definir email:
-subistitua  <USER_EMAIL> pelo seu endereço de email
+`git config --global user.email "<USER_EMAIL>"`
+* subistitua  <USER_EMAIL> pelo seu endereço de email
+<br>
 
-Para verificar se as alterações funcionaram: *git config --list*
+Para verificar se as alterações funcionaram: `git config --list`
 
-Confirme se a saída inclui duas linhas semelhantes ao exemplo a seguir: 
+A saída inclui duas linhas semelhantes ao exemplo a seguir: 
 
-user.name=User Name <br>
-user.email=user-name@contoso.com
+`user.name=User Name` <br>
+`user.email=user-name@contoso.com`
 
 ## Configurar repositório Git
 
