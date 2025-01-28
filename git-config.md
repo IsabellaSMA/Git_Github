@@ -14,7 +14,10 @@ obs* se vc quer que todos os arquivos sejam selecionados no git, coloque o coman
 </p>
   </details>
 
-## Configurar o git
+# Configurar o git
+
+<img align="right" alt="" height="130px" src="https://th.bing.com/th/id/R.9768387cf34d18a2ece14af4992e5071?rik=fl%2bZ5MMUtF%2fuCQ&pid=ImgRaw&r=0">
+
 
 Para verificar novamente se o Git está instalado, digite: *`git --version`*
 
