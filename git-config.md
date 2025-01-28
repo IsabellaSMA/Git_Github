@@ -16,7 +16,10 @@ obs* se vc quer que todos os arquivos sejam selecionados no git, coloque o coman
 
 ## Configurar o git
 
-Para verificar novamente se o Git está instalado, digite *git --version:*
+Para verificar novamente se o Git está instalado, digite: *`git --version`*
+
+
+
 
 Para configurar o Git, é necessário definir algumas variáveis globais como user.name e user.email. As duas são necessárias para fazer commits
 
