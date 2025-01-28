@@ -30,7 +30,7 @@ Para verificar se as alterações funcionaram: *git config --list*
 
 Confirme se a saída inclui duas linhas semelhantes ao exemplo a seguir: 
 
-user.name=User Name
+user.name=User Name <br>
 user.email=user-name@contoso.com
 
 ## Configurar repositório Git
