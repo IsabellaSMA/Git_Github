@@ -16,17 +16,19 @@ obs* se vc quer que todos os arquivos sejam selecionados no git, coloque o coman
 
 ## Configurar o git
 
-No Cloud Shell, para verificar novamente se o Git está instalado, digite git --version:
+Para verificar novamente se o Git está instalado, digite *git --version:*
 
-Para configurar o Git, é necessário definir algumas variáveis globais: user.name e user.email. As duas são necessárias para fazer commits
+Para configurar o Git, é necessário definir algumas variáveis globais como user.name e user.email. As duas são necessárias para fazer commits
 
-Defina seu nome no Cloud Shell com o comando a seguir. Substitua <USER_NAME> pelo nome de usuário que deseja usar.
+### Definir o nome: 
+Substitua <USER_NAME> pelo nome de usuário que deseja usar.
 
-Agora, use este comando para criar uma variável de configuração user.email, substituindo <USER_EMAIL> pelo seu endereço de email
+### Definir email:
+subistitua  <USER_EMAIL> pelo seu endereço de email
 
-Execute o seguinte comando para verificar se as alterações funcionaram: git config --list
+Para verificar se as alterações funcionaram: *git config --list*
 
-Confirme se a saída inclui duas linhas semelhantes ao exemplo a seguir. Seu nome e seu endereço de email serão diferentes do que é mostrado no exemplo: user.name=User Name
+Confirme se a saída inclui duas linhas semelhantes ao exemplo a seguir: Seu nome e seu endereço de email serão diferentes do que é mostrado no exemplo: user.name=User Name
 user.email=user-name@contoso.com
 
 ## Configurar repositório Git
