@@ -16,7 +16,7 @@
 * obter com facilidade informações sobre todos os comandos. É possível pesquisar ajuda sobre um tema específico usando o comando `git <comando> --help`. Por exemplo, `git commit --help` abre uma página que traz mais informações sobre o comando git commit e como usá-lo. 
 
 `git init`
-* uma frase
+* Se você está começando do zero e deseja criar um repositório, use git init. Com o comando git init, é possível criar um repositório com valores padrão ou especificar valores para ele.
 
 `git remote add origin`
 * algo aqui tbm
