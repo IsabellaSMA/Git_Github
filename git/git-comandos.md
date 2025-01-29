@@ -25,4 +25,10 @@
 * Comando para criar de uma nova branch
 
 `git config`
-*algo aqui tbm
+*O primeiro comando que você provavelmente precisará é git config. git config define diversos atributos de configuração. Para ver quais são suas configurações sem realizar alterações, liste-as com `git config --list`
+
+#### Identidade
+Quando você está colaborando com outros em um projeto, é importante conhecer a identidade das pessoas que fazem as alterações. Com git config, é possível definir o nome e o endereço de email associados a todas as alterações.
+
+`git config user.name “<your name>” ` <br>
+`git config --global user.name “<your name>”`
