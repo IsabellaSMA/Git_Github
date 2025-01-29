@@ -62,7 +62,7 @@ VCS (sistema de controle de versão) ou SCM (Gerenciamento de Configuração de 
     As operações do git são realizadas por meio de comandos. git é o comando principal e o que vem depois é o subcomando, especificando a operação que você deseja que o git execute  (ex. git push). Os comandos são frequentemente acompanhados por hífens simples (ex git commit -m "meu commit") ou duplos (git reset-- hard)
 
 * #### *Ramificação e mesclagem*:
-  Os branches permitem criar cópias do código existente e, em seguida, criar branches para trabalhar em algo que não afete a versão principal ou ativa do código.
+  Os branches permitem criar cópias do código existente e, em seguida, criar branches para trabalhar em algo que não afete a versão principal ou ativa do código. se você encontrar em um dos branches algo que deseja incorporar à versão principal do código, será possível fazer isso facilmente "mesclando" o código em branch ao código principal. Dessa forma, é possível trabalhar em uma correção ou em um novo recurso e, quando ele estiver funcionando e testado, mesclá-lo no branch ativo e implantá-lo para o público.
 
 ## Git vs Github: Qual a diferença? 
 
