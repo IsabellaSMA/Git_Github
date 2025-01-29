@@ -60,14 +60,14 @@ O Git funciona verificando a presença de alterações em arquivos de determinad
    * Se estiver usando Git versão 2.28.0 ou posterior: `git init --initial-branch=main` ou `git init -b main`
    * Em versões anteriores: `git init git checkout -b main`
        
-6. Agora, use um comando git status para mostrar o status da árvore de trabalho
+6. Agora, use um comando `git status` para mostrar o status da árvore de trabalho
 
 7. Use um comando ls para mostrar o conteúdo da árvore de trabalho:
-   * ls -a
+  `ls -a`
    * Confirme se o diretório contém um subdiretório chamado .git. (O uso da opção -a com ls é importante, porque o Linux normalmente oculta os nomes de arquivos e diretórios que começam com um ponto.) Essa pasta é o repositório Git, o diretório no qual o Git armazena os metadados e o histórico da árvore de trabalho.
 Normalmente, você não faz nada com o diretório .git diretamente. O Git atualiza os metadados nele, pois o status da árvore de trabalho é alterado para controlar as alterações nos arquivos. Esse diretório não exige nenhuma intervenção de sua parte, mas é incrivelmente importante para o Git.
 
-* Para obter ajuda do git digite git --help
+* Para obter ajuda do git digite `git --help`
 
 
 
