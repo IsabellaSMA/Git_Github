@@ -32,3 +32,36 @@ Quando você está colaborando com outros em um projeto, é importante conhecer 
 
 `git config user.name “<your name>” ` <br>
 `git config --global user.name “<your name>”`
+
+`git clone`
+git clone é o comando com o qual você provavelmente iniciará a maioria dos projetos, a menos que tenha sido encarregado de configurar um repositório usando git init.
+
+git clone é o comando que copia (ou clona) um repositório para o computador local. Ao executar o comando git clone, você cria uma cópia completa do repositório remoto ou de origem, incluindo branches, histórico e outros metadados.
+
+Ao clonar um repositório, é possível especificar o local. Se você não especificar onde colocar o repositório, ele será colocado na pasta de trabalho atual (de onde você está emitindo o comando).
+
+git clone <source repo URL> <path or location to place the clone>
+
+`git branch`
+git branch permite criar um branch ou ver quais branches existem atualmente para o repositório. Para ver uma lista dos branches atuais, use o comando git branch ou adicione a opção --list.
+
+git branch
+
+git branch --list
+
+`git checkout`
+git checkout permite mudar rapidamente entre diferentes branches no repositório Git. Quando você está trabalhando “dentro” de um branch, todos os arquivos acessados estarão no estado em que se encontram naquele branch. Quando você muda de branch, o conteúdo dos arquivos no computador muda para corresponder ao branch para o qual você mudou.
+
+Se você estiver trabalhando em um novo recurso e precisar trabalhar em bugs por um tempo, talvez seja necessário fazer o seguinte:
+
+Alterar os branches para o branch de bug.
+Atualizar os arquivos no branch de bug.
+Atualizar o branch de bug.
+Voltar para o branch de recursos.
+git checkout <branch name>
+
+git push
+Assim que as atualizações estiverem presentes no repositório local, será necessário decidir se elas também devem ser compartilhadas com o repositório de origem ou remoto. git push “envia” as alterações feitas e a nota que você adicionou para o commit ao repositório remoto.
+
+Quando você usa o comando git push, ele envia o branch atual, com todo o histórico, os comentários e as alterações de arquivo. É importante verificar se você está no branch correto antes de executar o comando git push.
+
