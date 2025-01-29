@@ -45,12 +45,13 @@ A saída inclui duas linhas semelhantes ao exemplo a seguir:
 
 ## Configurar repositório Git
 
-O Git funciona verificando a presença de alterações em arquivos de determinada pasta. Criaremos uma pasta para que ela sirva como a árvore de trabalho (diretório do projeto) e indicaremos isso ao Git, de modo que ele possa começar a controlar as alterações. Informaremos ao Git para ele começar a controlar alterações inicializando um repositório Git nessa pasta.
+O Git funciona verificando a presença de alterações em arquivos de determinada pasta. Criaremos uma pasta para que ela sirva como a árvore de trabalho (diretório do projeto) e indicaremos isso ao Git, de modo que ele possa começar a controlar as alterações. 
 
-Comece criando uma pasta vazia para seu projeto e inicialize um repositório Git dentro dela.
 
-1. Crie uma pasta chamada Cats. Essa pasta será o diretório do projeto, também chamado de árvore de trabalho. O diretório do projeto é o local em que todos os arquivos relacionados ao seu projeto são armazenados. Neste exercício, é o local em que o site e os arquivos que criam o site e o conteúdo são armazenados.
-  * mkdir Cats 
+
+1. Criação da pasta Cats: `mkdir Cats`
+* Essa pasta será o diretório do projeto, também chamado de árvore de trabalho. O diretório do projeto é o local em que todos os arquivos relacionados ao seu projeto são armazenados. Neste exercício, é o local em que o site e os arquivos que criam o site e o conteúdo são armazenados.
+
 
 2. Altere para o diretório do projeto usando o comando cd:
   * cd Cats
