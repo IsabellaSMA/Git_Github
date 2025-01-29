@@ -61,6 +61,8 @@ VCS (sistema de controle de versão) ou SCM (Gerenciamento de Configuração de 
 * #### *Comandos, Subcomandos e opções*:
     As operações do git são realizadas por meio de comandos. git é o comando principal e o que vem depois é o subcomando, especificando a operação que você deseja que o git execute  (ex. git push). Os comandos são frequentemente acompanhados por hífens simples (ex git commit -m "meu commit") ou duplos (git reset-- hard)
 
+* #### *Ramificação e mesclagem*:
+
 ## Git vs Github: Qual a diferença? 
 
 **Git** é um DVCS (sistema de controle de versão distribuído) que pode ser usado por vários desenvolvedores e outros colaboradores para trabalhar em um projeto. Ele fornece um modo de trabalhar com um ou mais branches locais e os envia por push para um repositório remoto.
