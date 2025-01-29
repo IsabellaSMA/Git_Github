@@ -65,6 +65,14 @@ VCS (sistema de controle de versão) ou SCM (Gerenciamento de Configuração de 
   Os branches permitem criar cópias do código existente e, em seguida, criar branches para trabalhar em algo que não afete a versão principal ou ativa do código. se você encontrar em um dos branches algo que deseja incorporar à versão principal do código, será possível fazer isso facilmente "mesclando" o código em branch ao código principal. Dessa forma, é possível trabalhar em uma correção ou em um novo recurso e, quando ele estiver funcionando e testado, mesclá-lo no branch ativo e implantá-lo para o público.
 <br> **Solicitação de pull**: Se você não tem autoridade com relação ao branch principal do repositório de origem, talvez seja necessário criar uma solicitação de pull, uma solicitação de mesclagem ou um pull de solicitação. Essas solicitações são a mesma coisa com nomes diferentes, dependendo da plataforma usada. Elas consistem simplesmente em uma solicitação sua à autoridade do branch principal para incorporar as atualizações a esse branch.
 
+* #### *Clonagem e pull*
+Ao trabalhar com o Git como sua escolha de controle de versão e código-fonte, é possível “unir” um repositório existente ou criar o seu próprio desde o início. Ao trabalhar com um repositório existente, é preciso começar com a clonagem dele. A clonagem do repositório cria uma cópia completa e exata dele. Ao clonar o repositório, você obtém a estrutura, todos os arquivos e todo o histórico associado a ele.
+Como o Git funciona de maneira distribuída, isso significa que você tem uma cópia completa do repositório sempre que o clona. Se você não estiver preocupado com as atualizações feitas por outras pessoas, nunca precisará voltar ao repositório. No entanto, isso também é uma desvantagem. Se você não voltar e atualizar sua cópia do repositório em relação à origem, ficará fora de sincronização. O pull é semelhante à clonagem, mas serve para manter a continuidade após a clonagem inicial.
+Tanto a clonagem quanto o pull de repositórios ajudarão você a obter e manter as versões, os históricos e os comentários mais recentes.
+
+
+#
+
 ## Git vs Github: Qual a diferença? 
 
 **Git** é um DVCS (sistema de controle de versão distribuído) que pode ser usado por vários desenvolvedores e outros colaboradores para trabalhar em um projeto. Ele fornece um modo de trabalhar com um ou mais branches locais e os envia por push para um repositório remoto.
