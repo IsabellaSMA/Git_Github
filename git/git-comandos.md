@@ -24,3 +24,5 @@
 `git checkout -b "nome da branch"`
 * Comando para criar de uma nova branch
 
+`git config`
+*algo aqui tbm
