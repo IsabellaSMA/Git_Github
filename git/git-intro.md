@@ -28,7 +28,7 @@ VCS (sistema de controle de versão) ou SCM (Gerenciamento de Configuração de 
 
 <details>
   <summary> Controle de versão distribuído</summary> <br>
-    <p > O Git é distribuído, o que significa que o histórico completo de um projeto é armazenado no cliente e no servidor. Você pode editar arquivos sem uma conexão de rede, verificá-los localmente e sincronizá-los com o servidor quando uma conexão fica disponível. Se um servidor ficar inativo, você ainda terá uma cópia local do projeto. Tecnicamente, você nem precisa ter um servidor. As alterações podem ser passadas por email ou compartilhadas por uma mídia removível, mas ninguém usa o Git dessa maneira na prática
+    <p > O Git é distribuído, o que significa que o histórico completo de um projeto é armazenado no cliente e no servidor. Você pode editar arquivos sem uma conexão de rede, verificá-los localmente e sincronizá-los com o servidor quando uma conexão fica disponível. Se um servidor ficar inativo, você ainda terá uma cópia local do projeto. Tecnicamente, você nem precisa ter um servidor. Todos aqueles que estão conectados podem ter uma cópia completa do repositório no momento em que o baixam, incluindo o histórico e as notas associados a ele.
     </p>
 </details>
  
@@ -39,7 +39,9 @@ VCS (sistema de controle de versão) ou SCM (Gerenciamento de Configuração de 
    Conjunto de diretórios e arquivos aninhados que contém o projeto no qual está sendo feito o trabalho; 
   
 * #### *Repositório*:
-   O diretório. Mantém todo o histórico e os metadados de um projeto. Repositório Simples: não faz parte de uma árvore de trabalho é usado para compartilhamento ou backup. Geralmente é um diretório que termina com .git (ex. project.git)
+  
+  O diretório,é o projeto ou pasta de nível superior em que o código ou os arquivos são organizados. Ele é semelhantes às estruturas de pastas no computador. Mantém todo o histórico e os metadados de um projeto. <br>
+**Repositório Simples:** não faz parte de uma árvore de trabalho é usado para compartilhamento ou backup. Geralmente é um diretório que termina com .git (ex. project.git)
 
 * #### *Hash*:
    Produzido por uma Função de Hash[^1] . Um hash é como uma impressão digital para dados. É um número gerado a partir do conteúdo de um arquivo ou mensagem. Cada pequeno detalhe dos dados produz um hash único. Se qualquer parte do conteúdo muda, o hash também muda. [^2]
