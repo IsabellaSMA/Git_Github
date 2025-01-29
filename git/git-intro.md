@@ -71,7 +71,7 @@ Como o Git funciona de maneira distribuída, isso significa que você tem uma c�
 Tanto a clonagem quanto o pull de repositórios ajudarão você a obter e manter as versões, os históricos e os comentários mais recentes.
 
 
-#
+
 
 ## Git vs Github: Qual a diferença? 
 
