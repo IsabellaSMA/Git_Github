@@ -63,6 +63,7 @@ VCS (sistema de controle de versão) ou SCM (Gerenciamento de Configuração de 
 
 * #### *Ramificação e mesclagem*:
   Os branches permitem criar cópias do código existente e, em seguida, criar branches para trabalhar em algo que não afete a versão principal ou ativa do código. se você encontrar em um dos branches algo que deseja incorporar à versão principal do código, será possível fazer isso facilmente "mesclando" o código em branch ao código principal. Dessa forma, é possível trabalhar em uma correção ou em um novo recurso e, quando ele estiver funcionando e testado, mesclá-lo no branch ativo e implantá-lo para o público.
+Se você não tem autoridade com relação ao branch principal do repositório de origem, talvez seja necessário criar uma solicitação de pull, uma solicitação de mesclagem ou um pull de solicitação. Essas solicitações são a mesma coisa com nomes diferentes, dependendo da plataforma usada. Elas consistem simplesmente em uma solicitação sua à autoridade do branch principal para incorporar as atualizações a esse branch.
 
 ## Git vs Github: Qual a diferença? 
 
