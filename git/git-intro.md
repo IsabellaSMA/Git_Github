@@ -77,7 +77,7 @@ Tanto a clonagem quanto o pull de repositórios ajudarão você a obter e manter
 
 **Git** é um DVCS (sistema de controle de versão distribuído) que pode ser usado por vários desenvolvedores e outros colaboradores para trabalhar em um projeto. Ele fornece um modo de trabalhar com um ou mais branches locais e os envia por push para um repositório remoto.
 
-**GitHub** é uma plataforma de nuvem e o repositório remoto que usa o Git como sua tecnologia principal. O GitHub simplifica o processo de colaboração em projetos e fornece um site, mais ferramentas de linha de comando e um fluxo geral que pode ser usado pelos desenvolvedores e pelos usuários para trabalhar juntos.
+**GitHub** O GitHub é um serviço de hospedagem de repositório que usa a estrutura Git para fornecer uma solução de controle de versão e de código-fonte, uma plataforma de nuvem e o repositório remoto que usa o Git como sua tecnologia principal. O GitHub simplifica o processo de colaboração em projetos e fornece um site, mais ferramentas de linha de comando e um fluxo geral que pode ser usado pelos desenvolvedores e pelos usuários para trabalhar juntos.
 
 
 [^1]: função de Hash: fórmula matemática que pega os dados e gera essa "impressão digital",transformando dados de qualquer tamanho em um código de tamanho fixo (o hash).
