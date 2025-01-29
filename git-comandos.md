@@ -13,4 +13,14 @@
 * Permite que você veja informações sobre commits anteriores pois imprime informações sobre os commits mais recentes, como o carimbo de data/hora, o autor e uma mensagem de commit. Esse comando ajuda a acompanhar o que está sendo feito e quais alterações foram salvas.
   
 `git --help`
-* obter com facilidade informações sobre todos os comandos. É possível pesquisar ajuda sobre um tema específico usando o comando `git <comando> --help`
+* obter com facilidade informações sobre todos os comandos. É possível pesquisar ajuda sobre um tema específico usando o comando `git <comando> --help`. Por exemplo, `git commit --help` abre uma página que traz mais informações sobre o comando git commit e como usá-lo. 
+
+`git init`
+* uma frase
+
+`git remote add origin`
+* algo aqui tbm
+
+`git checkout -b "nome da branch"`
+* Comando para criar de uma nova branch
+
