@@ -71,3 +71,12 @@ Comando: `git clone <source repo URL> <path or location to place the clone> `
 `git merge`
 * Permite que você informe ao Git que deseja tirar o arquivo do branch de treinamento, por exemplo, e incorporá-lo ao branch de produção ou principal do código. Se você acabou de trabalhar no código no branch de treinamento e deseja mesclar as alterações no branch principal, será preciso alternar para o branch principal primeiro usando o comando `git checkout main`
 * Se você estiver no branch principal, será possível mesclar nele as atualizações feitas no branch de treinamento com `git merge <branch to merge>`
+
+<details>
+  <summary>  Possivel mensagem de erro: </summary>
+  <p>Se você for a única pessoa que fez atualizações no arquivo que está tentando realizar a mesclagem, o processo deverá ser contínuo (é uma boa ideia executar git pull antes de iniciar o trabalho).</p> <br>
+  <p>Se outras alterações tiverem sido feitas, você precisará gerenciar o conflito. Todos os arquivos com um conflito serão atualizados para incluir ambas as versões do conteúdo em um único arquivo. Se você abrir o arquivo, verá as alterações e a versão atual do conteúdo (como ele existe no repositório). É possível atualizar e fazer novamente commit do arquivo de maneira manual, o que efetivamente concluirá a mesclagem.</p>
+  <img align="center" alt="git-merge-conflict" width=750px src="https://github.com/user-attachments/assets/41805c0a-42cc-44b6-ad63-2c1322e38f7c">
+  <p>Depois de fazer edições no arquivo, você precisará executar o comando git add para preparar o arquivo e, em seguida, git commit -m "<your comment>" para fazer commit do arquivo no branch atual do repositório.</p> 
+  <p>Obs:Você não precisa fazer novamente a mesclagem porque, ao concluir git commit, você atualiza o arquivo no branch</p>
+</details>
