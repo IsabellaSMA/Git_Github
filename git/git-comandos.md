@@ -33,13 +33,9 @@ Com git config, é possível definir o nome e o endereço de email associados a 
 `git config --global user.name “<your name>”`
 
 `git clone`
-*git clone é o comando com o qual você provavelmente iniciará a maioria dos projetos, a menos que tenha sido encarregado de configurar um repositório usando git init.
+* git clone é o comando que copia (ou clona) um repositório para o computador local. Ao executar o comando git clone, você cria uma cópia completa do repositório remoto ou de origem, incluindo branches, histórico e outros metadados. Ao clonar um repositório, é possível especificar o local. Se você não especificar onde colocar o repositório, ele será colocado na pasta de trabalho atual (de onde você está emitindo o comando).
 
-git clone é o comando que copia (ou clona) um repositório para o computador local. Ao executar o comando git clone, você cria uma cópia completa do repositório remoto ou de origem, incluindo branches, histórico e outros metadados.
-
-Ao clonar um repositório, é possível especificar o local. Se você não especificar onde colocar o repositório, ele será colocado na pasta de trabalho atual (de onde você está emitindo o comando).
-
-git clone <source repo URL> <path or location to place the clone>
+Comando: `git clone <source repo URL> <path or location to place the clone> `
 
 `git branch`
 git branch permite criar um branch ou ver quais branches existem atualmente para o repositório. Para ver uma lista dos branches atuais, use o comando git branch ou adicione a opção --list.
