@@ -44,6 +44,8 @@ Comando: `git clone <source repo URL> <path or location to place the clone> `
 `git checkout`
 * git checkout permite mudar rapidamente entre diferentes branches no repositório Git. Quando você está trabalhando “dentro” de um branch, todos os arquivos acessados estarão no estado em que se encontram naquele branch. Quando você muda de branch, o conteúdo dos arquivos no computador muda para corresponder ao branch para o qual você mudou.
 
+<br>
+
 <details>
   <summary>Se você estiver trabalhando em um novo recurso e precisar trabalhar em bugs por um tempo, talvez seja necessário fazer o seguinte:</summary> <br>
     <p>Alterar os branches para o branch de bug</p>
@@ -53,9 +55,8 @@ Comando: `git clone <source repo URL> <path or location to place the clone> `
     <p>git checkout <branch name></p>
 </details>
 
+<br>
 
-git push
-Assim que as atualizações estiverem presentes no repositório local, será necessário decidir se elas também devem ser compartilhadas com o repositório de origem ou remoto. git push “envia” as alterações feitas e a nota que você adicionou para o commit ao repositório remoto.
-
-Quando você usa o comando git push, ele envia o branch atual, com todo o histórico, os comentários e as alterações de arquivo. É importante verificar se você está no branch correto antes de executar o comando git push.
+`git push`
+* Assim que as atualizações estiverem presentes no repositório local, será necessário decidir se elas também devem ser compartilhadas com o repositório de origem ou remoto. git push “envia” as alterações feitas e a nota que você adicionou para o commit ao repositório remoto.O comando git push envia o branch atual com todo o histórico, os comentários e as alterações de arquivo. **É importante verificar se você está no branch correto antes de executar o comando git push.**
 
