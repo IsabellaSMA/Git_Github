@@ -8,6 +8,7 @@
 * git config define diversos atributos de configuração. Para ver quais são suas configurações sem realizar alterações, liste-as com `git config --list`.A primeira/principal uabilidade deste comando é definir o nome e o endereço de email associados a todas as alterações com:
 `git config user.name “<your name>” ` <br>
 `git config --global user.name “<your name>”`
+<br>
 
 `git --help`
 * obter com facilidade informações sobre todos os comandos. É possível pesquisar ajuda sobre um tema específico usando o comando `git <comando> --help`. Por exemplo, `git commit --help` abre uma página que traz mais informações sobre o comando git commit e como usá-lo. 
@@ -64,4 +65,9 @@ Comando: `git clone <source repo URL> <path or location to place the clone> `
 ### Comandos intermediários:
 
 `git pull` 
-* entra em contato com a ramificação remota e verifica se há atualizações necessárias e, em seguida, atualiza seu repositório local. É uma boa ideia efetuar pull do Git antes de começar a trabalhar em seus arquivos. Atualizar seu repositório antes de iniciar o trabalho ajuda a evitar conflitos posteriores caso você não tenha começado a partir da atualização mais recente.
+* Entra em contato com a ramificação remota e verifica se há atualizações necessárias e, em seguida, atualiza seu repositório local. **É uma boa ideia efetuar pull do Git antes de começar a trabalhar em seus arquivos**. Atualizar seu repositório antes de iniciar o trabalho ajuda a evitar conflitos posteriores caso você não tenha começado a partir da atualização mais recente.
+
+
+`git merge`
+* Permite que você informe ao Git que deseja tirar o arquivo do branch de treinamento, por exemplo, e incorporá-lo ao branch de produção ou principal do código. Se você acabou de trabalhar no código no branch de treinamento e deseja mesclar as alterações no branch principal, será preciso alternar para o branch principal primeiro usando o comando `git checkout main`
+* Se você estiver no branch principal, será possível mesclar nele as atualizações feitas no branch de treinamento com `git merge <branch to merge>`
