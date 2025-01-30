@@ -45,12 +45,12 @@ Comando: `git clone <source repo URL> <path or location to place the clone> `
 * git checkout permite mudar rapidamente entre diferentes branches no repositório Git. Quando você está trabalhando “dentro” de um branch, todos os arquivos acessados estarão no estado em que se encontram naquele branch. Quando você muda de branch, o conteúdo dos arquivos no computador muda para corresponder ao branch para o qual você mudou.
 
 <details>
-  <summary>Se você estiver trabalhando em um novo recurso e precisar trabalhar em bugs por um tempo, talvez seja necessário fazer o seguinte:</summary>
-  <p>Alterar os branches para o branch de bug.
-Atualizar os arquivos no branch de bug.
-Atualizar o branch de bug.
-Voltar para o branch de recursos.
-git checkout <branch name></p>
+  <summary>Se você estiver trabalhando em um novo recurso e precisar trabalhar em bugs por um tempo, talvez seja necessário fazer o seguinte:</summary> <br>
+    <p>Alterar os branches para o branch de bug</p>
+    <p>Atualizar os arquivos no branch de bug.</p>
+    <p>Atualizar o branch de bug.</p>
+    <p>Voltar para o branch de recursos.</p>
+    <p>git checkout <branch name></p>
 </details>
 
 
