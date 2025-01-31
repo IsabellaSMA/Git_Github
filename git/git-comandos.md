@@ -38,7 +38,7 @@
 `git clone`
 * git clone é o comando que copia (ou clona) um repositório para o computador local. Ao executar o comando git clone, você cria uma cópia completa do repositório remoto ou de origem, incluindo branches, histórico e outros metadados. Ao clonar um repositório, é possível especificar o local. Se você não especificar onde colocar o repositório, ele será colocado na pasta de trabalho atual (de onde você está emitindo o comando).
 
-Como clonar um repositório:
+Como clonar um repositório: [github tutorial](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository)
 * Vá até o repositório local do github. Cloque no botão "Code" e copie o caminho https;
 * abra o git bash no diretório onde quer que esse local seja clonado (Area de Trabalho, Documentos..etc);
 * Digite `git clone <link do repo copiado>` e Enter.
