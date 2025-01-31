@@ -10,17 +10,26 @@ Os únicos critérios são que os ganchos devem ser armazenados na pasta .git/ho
 * applypatch-msg
 * pre-applypatch
 * post-applypatch
-*pre-commit
-prepare-commit-msg
-commit-msg
-post-commit
-pre-rebase
-post-checkout
-post-merge
-pre-receive
-atualizar
-post-receive
-post-update
-pre-auto-gc
-post-rewrite
-pre-push
+* pre-commit
+* prepare-commit-msg
+* commit-msg
+* post-commit
+* pre-rebase
+* post-checkout
+* post-merge
+* pre-receive
+* atualizar
+* post-receive
+* post-update
+* pre-auto-gc
+* post-rewrite
+* pre-push
+
+### Casos de uso para usar ganchos do Git:
+
+Alguns exemplos de uso de ganchos são impor políticas, garantir a consistência e controlar seu ambiente:
+
+Em Impor pré-condições para mesclagem
+Como verificar a associação da ID de item de trabalho na mensagem de commit
+Como impedir que você e sua equipe façam commit de código com falha
+Enviar notificações para a sala de chat da sua equipe (Teams, Slack, HipChat etc.)
