@@ -5,7 +5,7 @@ Por exemplo, é possível conectar-se ao evento commit-msg para validar se a est
 Os ganchos podem ser qualquer código executável, incluindo Shell, PowerShell, Python ou outros scripts. Eles também podem ser um executável binário.
 Os ganchos do Git oferecem uma grande oportunidade. Eles servem como um mecanismo para executar scripts personalizados em resposta a eventos significativos dentro do ciclo de vida do Git, como fazer commits, mesclagens e pushes. Os scripts, localizados no diretório .git\hooks do repositório, fornecem flexibilidade praticamente ilimitada na automatização de tarefas de desenvolvimento de software e na imposição de padrões de desenvolvimento.
 
-### Critérios:
+## Critérios:
 Os únicos critérios são que os ganchos devem ser armazenados na pasta .git/hooks na raiz do repositório. Além disso, eles devem ser nomeados para corresponder aos eventos relacionados (Git 2.x):
 
 * applypatch-msg
@@ -74,3 +74,41 @@ fi `
 
 Uma vez invocado, o script de gancho de pré-confirmação usa os comandos diff e grep do Git, para identificar palavras-chave ou padrões dentro das alterações incrementais no código que estão sendo confirmadas. Se alguma correspondência for detectada, o script gerará uma mensagem de erro e impedirá que o commit ocorra.
 
+## Outros casos de uso
+
+formatação de código, lint ou execução de testes personalizados para garantir que o commit adere aos padrões do projeto. O prepare-commit-msg é executado antes do editor de mensagens do commit ser iniciado. Ele permite a geração dinâmica de mensagens do commit para impor convenções de nomenclatura, como o uso de prefixos designados, por exemplo, feat: para recursos ou fix: para correções de bug.
+
+Por exemplo, o script prepare-commit-msg a seguir anexa automaticamente o nome do branch atual à mensagem do commit ao criar uma novo commit. Ele modifica o arquivo de mensagem do commit (US$ 1) adicionando o nome do branch seguido por dois-pontos e espaço no início do arquivo.
+
+`Bash`
+#!C:/Program\ Files/Git/usr/bin/sh.exe
+# Get the current branch name
+branch_name=$(git branch --show-current)
+# Check if the commit message file exists
+if [[ -f "$1" ]]; then
+  # Prepend the branch name to the commit message
+  sed -i "1s/^/$branch_name: /" "$1" 
+fi
+
+
+Os scripts de pós-confirmação são executados após a conclusão de um commit. Eles podem ser usados para disparar notificações ou gerar documentação.
+
+Por exemplo, o script a seguir envia uma notificação por email para um destinatário designado após cada commit. O script pode ser personalizado modificando o endereço de email do destinatário, o servidor do SMTP e o assunto e o corpo do email. Além disso, talvez seja necessário configurar seu sistema para enviar emails usando o cmdlet Send-MailMessage do PowerShell ou usar um método diferente para enviar notificações, dependendo de seu ambiente e requisitos.
+
+`Bash`
+#!C:/Program\ Files/Git/usr/bin/sh.exe
+# Set the recipient email address
+$recipient="your@email.com"
+# Set the subject of the email
+$subject="Git Commit Notification"
+# Set the body of the email
+$body="A new commit has been made to the repository."
+# Send the email notification
+Send-MailMessage -To $recipient -Subject $subject -Body $body -SmtpServer "your.smtp.server"
+
+Vale a pena observar que a pasta repositório .git\hooks não está confirmada no controle do código-fonte. Você pode se perguntar se há uma maneira de compartilhar os scripts desenvolvidos com outro membro da sua equipe de desenvolvimento. A boa notícia é que, a partir da versão 2.9 do Git, é possível mapear ganchos do Git para uma pasta cujo o commit pode ser feito no controle do código-fonte. Você pode fazer isso atualizando a configuração de definições globais para seu repositório Git:
+
+`Bash`
+`Git config --global core.hooksPath '~/.githooks'`
+
+Se você precisar substituir os ganchos do Ggit que configurou no lado do cliente, poderá fazer isso usando a opção sem verificação digitando `Git commit --no-verify`
