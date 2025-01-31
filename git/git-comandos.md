@@ -45,6 +45,13 @@ Como clonar um repositório:
 * Pronto. Repositório clonado!
 <details>
 <summary>Agora se quiser se sentir a(o) programadora(o)..</summary>
+  <p> Abra o git bash</p> 
+  <p> Digite o comando "cd" e digite o caminho do diretório que deseja clonar o repositório.</p> 
+  <p>Exemplo: cd "c:/Users/nome-usuario/OneDrive/Documents"</p>
+  <p>Assim que o git bash mostrar o novo direório(~ /OneDrive/Documents)..</p>
+  <p>git clone "https do repositório local"</p>
+  <p> Pronto</p>
+</details>
 
 
 `git branch`
