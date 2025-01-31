@@ -112,3 +112,5 @@ Vale a pena observar que a pasta repositório .git\hooks não está confirmada n
 `Git config --global core.hooksPath '~/.githooks'`
 
 Se você precisar substituir os ganchos do Ggit que configurou no lado do cliente, poderá fazer isso usando a opção sem verificação digitando `Git commit --no-verify`
+
+[Ganchos do lado do servidor](https://learn.microsoft.com/pt-br/azure/devops/service-hooks/events?view=azure-devops)
