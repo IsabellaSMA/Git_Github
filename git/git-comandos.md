@@ -15,24 +15,46 @@
 
 
 `git init`
-* Se você está começando do zero e deseja criar um repositório, use git init. Com o comando git init, é possível criar um repositório com valores padrão ou especificar valores para ele.
+* Inicia um repositório vazio (uma pasta nomeada de `.git`) dentro da pasta do projeto. Esta pasta normalmente só o git controla, porém a aula de [ganchos do git]("git/git-ganchos.md") mostra que é possivel modificar conteúdos da pasta `.hooks`.
 
 
 `git status`
 * Exibe o estado da árvore de trabalho. Permite ver quais alterações estão sendo controladas pelo Git.
 
+
 `git add`
 * O termo técnico é preparar essas alterações. O git add "adiciona" os arquivos deixando eles em  estado chamado de *staged* - preparo para ser commitados. O comando `git add.`facilita o trabalho de adicionar um arquivo por vez, dessa forma, todos os arquivos do projeto são adicionados de uma vez. 
+
 
 `git commit -m "mensagem-de-commit"`
 * Fazer commit de alterações significa colocar uma cópia (do arquivo, do diretório ou de outros itens) no repositório como uma nova versão. Os dados salvos em um commit incluem o nome e o endereço de email do autor, a data, os comentários sobre o que foi feito (e o motivo), uma assinatura digital opcional e o identificador exclusivo do commit anterior.
 
+
+`git diff`
+*Normalmente no trminal de gir, as linhas modificadas ficam com cores diferentes(removidas= vermelhas, adicionadas=verde). Porém, o git diff não mostra nada se não houve alterações.
+
+
+* Para ver os arquivos modificados na area de Staged usa-se o comando `git digg --staged`. Assim, as modificações serão mostradas.
+
+
 `git log`
-* Permite que você veja informações sobre commits anteriores pois imprime informações sobre os commits mais recentes, como o carimbo de data/hora, o autor e uma mensagem de commit. Esse comando ajuda a acompanhar o que está sendo feito e quais alterações foram salvas.
+* Permite que você veja o histórico de commits, pois imprime informações sobre os commits mais recentes, como o carimbo de data/hora, o autor e uma mensagem de commit. Esse comando ajuda a acompanhar o que está sendo feito e quais alterações foram salvas.
+
+* Como ver a branch atual/todos os commits: `git log --one line--decorate`
+
+* Para sair do git log: aperte a tecla de mais(+) e a tecla q 
+
+
+`git restore`
+
+* Caso uma mudança feita não foi agradável ou a certa, o comando `git restore "nome do arquivo"` exclui a ultima modificação feita.
+
+* Caso o arquivo com a mudança indesejada está na area de Stage, basta digitar o comando `git restore --staged`.  
   
 
-`git remote add origin`
-* algo aqui tbm
+
+`git remote add origin "repo-Github"`
+* Define qual é o repositório local no qual este remoto será conectado
 
 
 `git clone`
@@ -56,7 +78,7 @@ Como clonar um repositório: [github tutorial](https://docs.github.com/pt/reposi
 `git branch`
 * git branch permite criar um branch ou ver quais branches existem atualmente para o repositório. Para ver uma lista dos branches atuais, use o comando git branch ou adicione a opção --list. Exemplo: `git branch --list`
 
-`git push`
+`git push -u origin main/master(nome da branch)`
 * Assim que as atualizações estiverem presentes no repositório local, será necessário decidir se elas também devem ser compartilhadas com o repositório de origem ou remoto. git push “envia” as alterações feitas e a nota que você adicionou para o commit ao repositório remoto.O comando git push envia o branch atual com todo o histórico, os comentários e as alterações de arquivo. **É importante verificar se você está no branch correto antes de executar o comando git push.**
 
 `git checkout -b "nome da branch"`
@@ -64,14 +86,7 @@ Como clonar um repositório: [github tutorial](https://docs.github.com/pt/reposi
 
 <br>
 
-<details>
-  <summary>Se você estiver trabalhando em um novo recurso e precisar trabalhar em bugs por um tempo, este comando é util, pois pode-se fazer:</summary> <br>
-    <p>Alterar os branches para o branch de bug</p>
-    <p>Atualizar os arquivos no branch de bug.</p>
-    <p>Atualizar o branch de bug.</p>
-    <p>Voltar para o branch de recursos.</p>
-    <p>git checkout <branch name></p>
-</details>
+
 
 <br>
 
@@ -82,7 +97,7 @@ Como clonar um repositório: [github tutorial](https://docs.github.com/pt/reposi
 
 
 `git merge`
-* Permite que você informe ao Git que deseja tirar o arquivo do branch de treinamento, por exemplo, e incorporá-lo ao branch de produção ou principal do código. Se você acabou de trabalhar no código no branch de treinamento e deseja mesclar as alterações no branch principal, será preciso alternar para o branch principal primeiro usando o comando `git checkout main`
+* Permite que você informe ao Git que deseja tirar o arquivo de uma branch  criada para um treinamento por exemplo, e incorporá-lo ao branch principal do código. Se você acabou de trabalhar no código no branch de treinamento e deseja mesclar as alterações no branch principal, será preciso alternar para o branch principal primeiro usando o comando `git checkout main`
 * Se você estiver no branch principal, será possível mesclar nele as atualizações feitas no branch de treinamento com `git merge <branch to merge>`
 
 <details>
