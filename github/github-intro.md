@@ -53,3 +53,9 @@ Um repositório contém todos os arquivos do seu projeto e o histórico de revis
 2. No seu repositório, navegue até a pasta onde deseja criar um arquivo selecionando o link de criação de um novo arquivo ou carregamento de um arquivo existente.
 
 3. Depois de adicionar, acima da lista de arquivos, selecione o menu suspenso Adicionar arquivo ᐁ. Em seguida, selecione Criar novo arquivo.
+
+4. No campo do nome de arquivo, digite o nome e a extensão do arquivo. Para criar subdiretórios, digite o separador de diretório /.
+
+5. Na caixa de texto de conteúdo do arquivo, digite conteúdo para o arquivo.
+
+6. Para examinar o novo conteúdo, acima do conteúdo do arquivo, selecione Visualizar.
