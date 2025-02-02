@@ -34,6 +34,15 @@ Em essência, a Plataforma GitHub Enterprise foca na experiência do desenvolved
 
 ## Repositórios
 
-
-
 Um repositório contém todos os arquivos do seu projeto e o histórico de revisão de cada arquivo, funciona como uma pasta no computador. No repositório é possivel anexar todo tipo de arquivo, sejam eles em diferentes linguagens ou pastas com subpastas.
+
+### Como criar um repositório
+
+1. No canto superior direito de qualquer página, use o menu suspenso e selecione Novo repositório.
+2. Use o menu suspenso Proprietário para selecionar a conta que você deseja que seja a proprietária do repositório
+3. Digite um nome para o seu repositório e uma descrição opcional.
+4. Escolha uma visibilidade do repositório:
+* Os repositórios públicos são acessíveis a todos na Internet.
+* Os repositórios privados só podem ser acessados por você, por pessoas com quem você compartilha explicitamente o acesso e, no caso de repositórios de organizações, por determinados membros da organização.
+5. Clique em Criar repositório e, pronto! Você acabou de criar um repositório!
+
