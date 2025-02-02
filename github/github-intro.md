@@ -57,5 +57,13 @@ Um repositório contém todos os arquivos do seu projeto e o histórico de revis
 4. No campo do nome de arquivo, digite o nome e a extensão do arquivo. Para criar subdiretórios, digite o separador de diretório /.
 
 5. Na caixa de texto de conteúdo do arquivo, digite conteúdo para o arquivo.
+6. Selecione Confirmar alterações.
 
-6. Para examinar o novo conteúdo, acima do conteúdo do arquivo, selecione Visualizar.
+7. No campo Mensagem de confirmação, digite uma mensagem de confirmação curta e significativa que descreva a alteração feita no arquivo. Você pode atribuir o commit a mais de um autor na mensagem de commit.
+
+8. Se você tiver mais de um endereço de email associado à sua conta no GitHub.com, selecione o menu suspenso de endereço de email. Em seguida, selecione o endereço de email a ser usado como o endereço de email do autor do Git. Apenas endereços de e-mail verificados aparecem neste menu suspenso. Se você habilitou a privacidade do endereço de email, então [username]@users.noreply.github.com é o endereço de email do autor da confirmação.
+
+10. Abaixo dos campos da Mensagem de commit, decida se deseja adicionar o commit ao branch atual ou a um novo branch. Se o seu branch atual for o branch padrão, você deve optar por criar um novo branch para sua confirmação e, em seguida, criar um pull request.
+
+
+7. Para examinar o novo conteúdo, acima do conteúdo do arquivo, selecione Visualizar.
