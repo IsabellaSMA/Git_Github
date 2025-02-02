@@ -34,4 +34,6 @@ Em essência, a Plataforma GitHub Enterprise foca na experiência do desenvolved
 
 ## Repositórios
 
+
+
 Um repositório contém todos os arquivos do seu projeto e o histórico de revisão de cada arquivo, funciona como uma pasta no computador. No repositório é possivel anexar todo tipo de arquivo, sejam eles em diferentes linguagens ou pastas com subpastas.
