@@ -32,4 +32,6 @@ Isso se traduziu em uma escala incrível, inigualável e sem paralelo em qualque
 Em essência, a Plataforma GitHub Enterprise foca na experiência do desenvolvedor. Ela tem a escala para fornecer insights que alteram a indústria, capacidades de colaboração para eficiência transformadora, ferramentas para aumentar a produtividade, segurança em cada etapa e IA para impulsionar tudo a novos patamares em uma única plataforma integrada.
 
 
-## Git vs Github 
+## Repositórios
+
+Um repositório contém todos os arquivos do seu projeto e o histórico de revisão de cada arquivo, funciona como uma pasta no computador. No repositório é possivel anexar todo tipo de arquivo, sejam eles em diferentes linguagens ou pastas com subpastas.
