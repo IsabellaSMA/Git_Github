@@ -46,3 +46,10 @@ Um repositório contém todos os arquivos do seu projeto e o histórico de revis
 * Os repositórios privados só podem ser acessados por você, por pessoas com quem você compartilha explicitamente o acesso e, no caso de repositórios de organizações, por determinados membros da organização.
 5. Clique em Criar repositório e, pronto! Você acabou de criar um repositório!
 
+### adicionando um arquivo ao seu repositório
+
+1. No GitHub, acesse a página principal do repositório.
+
+2. No seu repositório, navegue até a pasta onde deseja criar um arquivo selecionando o link de criação de um novo arquivo ou carregamento de um arquivo existente.
+
+3. Depois de adicionar, acima da lista de arquivos, selecione o menu suspenso Adicionar arquivo ᐁ. Em seguida, selecione Criar novo arquivo.
