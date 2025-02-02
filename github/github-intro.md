@@ -4,7 +4,7 @@
 
 # Github
 
-github é um serviço de nuvem e um repositório remoto que utiliza o git 
+Github é uma plataforma baseada de nuvem que utiliza o git, assim como é um repositório remoto. Também oferece uma plataforma de desenvolvimento alimentada por IA para criar, dimensionar e entregar software seguro. 
 
 
 ## Git vs Github 
