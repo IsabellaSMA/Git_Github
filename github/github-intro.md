@@ -5,6 +5,9 @@
 # Github
 
 Github é uma plataforma baseada de nuvem que utiliza o git, assim como é um repositório remoto. Também oferece uma plataforma de desenvolvimento alimentada por IA para criar, dimensionar e entregar software seguro. 
+</div> 
+
+<br>
 
 ## Pilares do Github
 
@@ -12,31 +15,34 @@ Github é uma plataforma baseada de nuvem que utiliza o git, assim como é um re
 
 A plataforma GitHub Enterprise está aprimorando a colaboração por meio de problemas e pull requests da plataforma AI, a produtividade por meio do Copilot e a segurança automatizando verificações de segurança mais rapidamente.
 
+
 ### Colaboração
 A colaboração está no centro de tudo o que o GitHub faz. Dessa forma,  há um pacote de ferramentas perfeitas que permitem que a colaboração ocorra sem esforço. 
 Repositórios, Problemas, Pull Requests e outras ferramentas ajudam a habilitar desenvolvedores, gerentes de projeto, líderes de operações e outros na mesma empresa. Isso habilita que eles trabalhem mais rápido em conjunto, reduzam o tempo de aprovação e enviem produtos mais rapidamente.
 
+
 ### Produtividade
 A produtividade é acelerada com a automação que a Plataforma GitHub Enterprise fornece. Com as ferramentas CI/CD (Integração Contínua e Entrega Contínua) integradas diretamente no fluxo de trabalho, a plataforma oferece aos usuários a capacidade de configurar tarefas e esquecê-las, cuidando da administração rotineira e acelerando o trabalho diário. Isso dá aos seus desenvolvedores mais tempo para focar no que realmente importa, criando soluções inovadoras.
+
 
 ### Segurança
 O GitHub foca na integração da segurança diretamente no processo de desenvolvimento desde o início. A plataforma GitHub Enterprise inclui recursos de segurança nativos e internos que minimizam o risco de segurança com uma solução de segurança criada internamente. Além disso, seu código permanece privado dentro da sua organização. Ao mesmo tempo, você pode usufruir da visão geral de segurança e o Dependabot.
 
-O GitHub continuou a fazer investimentos para garantir que nossos recursos estejam prontos para as empresas. A Microsoft e indústrias altamente regulamentadas confiam no GitHub, e nós atendemos aos requisitos de conformidade global.
 
 ### Escala
 O GitHub é a maior comunidade de desenvolvedores de seu tipo, com dados em tempo real de mais de 100 milhões de desenvolvedores, 330 milhões de repositórios e inúmeras implantações. Conseguimos entender as necessidades de mudança dos desenvolvedores e fazer alterações em nosso produto para corresponder a elas.
 
-Isso se traduziu em uma escala incrível, inigualável e sem paralelo em qualquer outra empresa do planeta. Todos os dias estamos obtendo mais insights dessa impressionante comunidade e evoluindo a plataforma para atender às suas necessidades.
-
 Em essência, a Plataforma GitHub Enterprise foca na experiência do desenvolvedor. Ela tem a escala para fornecer insights que alteram a indústria, capacidades de colaboração para eficiência transformadora, ferramentas para aumentar a produtividade, segurança em cada etapa e IA para impulsionar tudo a novos patamares em uma única plataforma integrada.
 
+#
 
-## Repositórios
+
+<h3 align=center> Repositórios</h3> <br>
 
 Um repositório contém todos os arquivos do seu projeto e o histórico de revisão de cada arquivo, funciona como uma pasta no computador. No repositório é possivel anexar todo tipo de arquivo, sejam eles em diferentes linguagens ou pastas com subpastas.
 
-### Como criar um repositório
+
+<h3 align=center> Como criar um repositório</h3> <br>
 
 1. No canto superior direito de qualquer página, use o menu suspenso e selecione Novo repositório.
 2. Use o menu suspenso Proprietário para selecionar a conta que você deseja que seja a proprietária do repositório
@@ -46,7 +52,9 @@ Um repositório contém todos os arquivos do seu projeto e o histórico de revis
 * Os repositórios privados só podem ser acessados por você, por pessoas com quem você compartilha explicitamente o acesso e, no caso de repositórios de organizações, por determinados membros da organização.
 5. Clique em Criar repositório e, pronto! Você acabou de criar um repositório!
 
-### adicionando um arquivo ao seu repositório
+
+
+<h3 lign=center> Adicionando um arquivo ao seu repositório</h3>  <br>
 
 1. No GitHub, acesse a página principal do repositório.
 
@@ -72,14 +80,14 @@ Um repositório contém todos os arquivos do seu projeto e o histórico de revis
 7. Para examinar o novo conteúdo, acima do conteúdo do arquivo, selecione Visualizar.
 
 
-## O que são gists
-Agora que temos um bom reconhecimento dos repositórios, podemos fazer a revisão dos gists. De modo semelhante aos repositórios, os gists são uma forma simplificada de compartilhar trechos de código com outras pessoas.
+<h3 align=center> gists </h3> <br>
 
-Cada gist é um repositório Git, que você pode bifurcar e clonar, e ser público ou secreto. Gists públicos são exibidos publicamente, nos locais em que as pessoas podem navegar pelas novas à medida que são criadas. As listas públicas também podem ser pesquisadas. Por outro lado, gists secretos não são pesquisáveis, mas não são totalmente privados. Se você enviar a URL de um gist de segredo para um amigo, ele poderá vê-lo.
+Os gists são uma forma simplificada de compartilhar trechos de código com outras pessoas.
 
-Para saber mais sobre gists, consulte o artigo vinculado em nossa seção de Recursos no final deste módulo intitulado Criando Gists.
+Cada gist **é um repositório Git**, que você pode bifurcar e clonar, e ser público ou secreto. Gists públicos são exibidos publicamente, nos locais em que as pessoas podem navegar pelas novas à medida que são criadas. As listas públicas também podem ser pesquisadas. Por outro lado, gists secretos não são pesquisáveis, mas não são totalmente privados. Se você enviar a URL de um gist de segredo para um amigo, ele poderá vê-lo.
 
-## O que são wikis?
+
+<h3 align=center> wikis? </h3>
 Todo repositório no GitHub.com vem equipado com uma seção para hospedagem da documentação, chamada wiki. Você pode usar o wiki do repositório para compartilhar conteúdo longo sobre seu projeto, por exemplo, como usá-lo, como ele foi projetado ou seus princípios básicos. Embora um arquivo LEIAME informe rapidamente o que seu projeto pode fazer, você pode usar um wiki para fornecer documentação adicional.
 
 Vale lembrar que, se o seu repositório for privado, apenas pessoas que tenham pelo menos acesso de leitura ao seu repositório terão acesso ao seu wiki.
