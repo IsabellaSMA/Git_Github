@@ -9,11 +9,11 @@ Github é uma plataforma baseada de nuvem que utiliza o git, assim como é um re
 ## Pilares do Github
 
 ### IA:
-A IA generativa está transformando drasticamente o desenvolvimento de software neste momento. A plataforma GitHub Enterprise está aprimorando a colaboração por meio de problemas e pull requests da plataforma AI, a produtividade por meio do Copilot e a segurança automatizando verificações de segurança mais rapidamente.
+
+A plataforma GitHub Enterprise está aprimorando a colaboração por meio de problemas e pull requests da plataforma AI, a produtividade por meio do Copilot e a segurança automatizando verificações de segurança mais rapidamente.
 
 ### Colaboração
-A colaboração está no centro de tudo o que o GitHub faz. Sabemos que a colaboração ineficiente resulta em desperdício de tempo e dinheiro. Nós neutralizamos isso com um pacote de ferramentas perfeitas que permitem que a colaboração ocorra sem esforço.
-
+A colaboração está no centro de tudo o que o GitHub faz. Dessa forma,  há um pacote de ferramentas perfeitas que permitem que a colaboração ocorra sem esforço. 
 Repositórios, Problemas, Pull Requests e outras ferramentas ajudam a habilitar desenvolvedores, gerentes de projeto, líderes de operações e outros na mesma empresa. Isso habilita que eles trabalhem mais rápido em conjunto, reduzam o tempo de aprovação e enviem produtos mais rapidamente.
 
 ### Produtividade
@@ -30,9 +30,6 @@ O GitHub é a maior comunidade de desenvolvedores de seu tipo, com dados em temp
 Isso se traduziu em uma escala incrível, inigualável e sem paralelo em qualquer outra empresa do planeta. Todos os dias estamos obtendo mais insights dessa impressionante comunidade e evoluindo a plataforma para atender às suas necessidades.
 
 Em essência, a Plataforma GitHub Enterprise foca na experiência do desenvolvedor. Ela tem a escala para fornecer insights que alteram a indústria, capacidades de colaboração para eficiência transformadora, ferramentas para aumentar a produtividade, segurança em cada etapa e IA para impulsionar tudo a novos patamares em uma única plataforma integrada.
-
-
-
 
 
 ## Git vs Github 
