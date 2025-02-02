@@ -65,5 +65,21 @@ Um repositório contém todos os arquivos do seu projeto e o histórico de revis
 
 10. Abaixo dos campos da Mensagem de commit, decida se deseja adicionar o commit ao branch atual ou a um novo branch. Se o seu branch atual for o branch padrão, você deve optar por criar um novo branch para sua confirmação e, em seguida, criar um pull request.
 
+11.Selecione Fazer commit das alterações ou Propor alterações.
+
+12. Parabéns, você acabou de criar um arquivo no seu repositório! Você também criou um novo branch e fez uma confirmação.
 
 7. Para examinar o novo conteúdo, acima do conteúdo do arquivo, selecione Visualizar.
+
+
+## O que são gists
+Agora que temos um bom reconhecimento dos repositórios, podemos fazer a revisão dos gists. De modo semelhante aos repositórios, os gists são uma forma simplificada de compartilhar trechos de código com outras pessoas.
+
+Cada gist é um repositório Git, que você pode bifurcar e clonar, e ser público ou secreto. Gists públicos são exibidos publicamente, nos locais em que as pessoas podem navegar pelas novas à medida que são criadas. As listas públicas também podem ser pesquisadas. Por outro lado, gists secretos não são pesquisáveis, mas não são totalmente privados. Se você enviar a URL de um gist de segredo para um amigo, ele poderá vê-lo.
+
+Para saber mais sobre gists, consulte o artigo vinculado em nossa seção de Recursos no final deste módulo intitulado Criando Gists.
+
+## O que são wikis?
+Todo repositório no GitHub.com vem equipado com uma seção para hospedagem da documentação, chamada wiki. Você pode usar o wiki do repositório para compartilhar conteúdo longo sobre seu projeto, por exemplo, como usá-lo, como ele foi projetado ou seus princípios básicos. Embora um arquivo LEIAME informe rapidamente o que seu projeto pode fazer, você pode usar um wiki para fornecer documentação adicional.
+
+Vale lembrar que, se o seu repositório for privado, apenas pessoas que tenham pelo menos acesso de leitura ao seu repositório terão acesso ao seu wiki.
