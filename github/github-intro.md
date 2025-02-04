@@ -93,4 +93,4 @@ Todo repositório no GitHub.com vem equipado com uma seção para hospedagem da 
 Vale lembrar que, se o seu repositório for privado, apenas pessoas que tenham pelo menos acesso de leitura ao seu repositório terão acesso ao seu wiki.
 
 
-1
+1 2
