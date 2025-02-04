@@ -91,3 +91,6 @@ Cada gist **é um repositório Git**, que você pode bifurcar e clonar, e ser p�
 Todo repositório no GitHub.com vem equipado com uma seção para hospedagem da documentação, chamada wiki. Você pode usar o wiki do repositório para compartilhar conteúdo longo sobre seu projeto, por exemplo, como usá-lo, como ele foi projetado ou seus princípios básicos. Embora um arquivo LEIAME informe rapidamente o que seu projeto pode fazer, você pode usar um wiki para fornecer documentação adicional.
 
 Vale lembrar que, se o seu repositório for privado, apenas pessoas que tenham pelo menos acesso de leitura ao seu repositório terão acesso ao seu wiki.
+
+
+1
