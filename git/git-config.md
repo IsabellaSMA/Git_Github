@@ -1,5 +1,5 @@
 
-# Configurar o git
+<h1 align=center> Configurar o git</h1>
 
 <img align="right" alt="" height="130px" src="https://th.bing.com/th/id/R.9768387cf34d18a2ece14af4992e5071?rik=fl%2bZ5MMUtF%2fuCQ&pid=ImgRaw&r=0">
 
@@ -9,14 +9,14 @@ Para verificar novamente se o Git está instalado, digite: *`git --version`*
 
 Para configurar o Git, é necessário definir algumas variáveis globais como *user.name* e *user.email* . As duas são necessárias para fazer commits
 
-### Definir o nome: 
+<h3 align=center> Definir o nome: </h3>
 Git Bash 
 
 `git config --global user.name "<USER_NAME>"` 
 * Substitua <USER_NAME> pelo nome de usuário que deseja usar.
 
 
-### Definir email:
+<h3 align=center> Definir email:</h3>
 `git config --global user.email "<USER_EMAIL>"`
 * subistitua  <USER_EMAIL> pelo seu endereço de email
 <br>
@@ -28,7 +28,7 @@ A saída inclui duas linhas semelhantes ao exemplo a seguir:
 `user.name=User Name` <br>
 `user.email=user-name@contoso.com`
 
-## Configurar repositório Git
+<h2 align=center> Configurar repositório Git</h2>
 
 O Git funciona verificando a presença de alterações em arquivos de determinada pasta. Criaremos uma pasta para que ela sirva como a árvore de trabalho (diretório do projeto) e indicaremos isso ao Git, de modo que ele possa começar a controlar as alterações. 
 
