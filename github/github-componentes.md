@@ -1,4 +1,4 @@
-# Componentes do fluxo de github
+<h1 align=center> Componentes do fluxo de github </h1>
 ![2-branching](https://github.com/user-attachments/assets/d0cb2f28-752d-430f-bb9b-3ff45acd87aa)
 
 
