@@ -1,4 +1,4 @@
-# Problemas X Discussões
+<h1 align=center> Problemas X Discussões </h1>
 
 
 ## Problemas
