@@ -12,7 +12,7 @@
 
 #
 
-<h3> O que é controle de Versão? </h3>
+<h3 align=center> O que é controle de Versão? </h3>
 VCS (sistema de controle de versão) ou SCM (Gerenciamento de Configuração de Software) é um programa ou um conjunto de programas que controla as alterações feitas em uma coleção de arquivos.
 
 <h3> Funcionalidades </h3> 
@@ -33,7 +33,7 @@ VCS (sistema de controle de versão) ou SCM (Gerenciamento de Configuração de 
 </details>
  
 
-<h3>Terminologia </h3>
+<h3 align=center>Terminologia </h3>
 
 * #### *Árvore de trabalho*:
    Conjunto de diretórios e arquivos aninhados que contém o projeto no qual está sendo feito o trabalho; 
@@ -73,7 +73,7 @@ Tanto a clonagem quanto o pull de repositórios ajudarão você a obter e manter
 
 
 
-## Git vs Github: Qual a diferença? 
+<h2 align=center> Git vs Github: Qual a diferença? </h2>
 
 **Git** é um DVCS (sistema de controle de versão distribuído) que pode ser usado por vários desenvolvedores e outros colaboradores para trabalhar em um projeto. Ele fornece um modo de trabalhar com um ou mais branches locais e os envia por push para um repositório remoto.
 
