@@ -17,6 +17,17 @@ Um arquivo foi adicionado ou removido do projeto
 
 #
 
+<h3 align=center> Unmodified (U)</h3>
+
+Um arquivo foi foi encontrado no projeto, porém não foi modificado
+* Unmodified: já foi até a area de stage. Todas as modificações estão salvas 
+<br>
+
+<div align=center>
+    <img src="" alt="icone-untraked">
+</div>
+
+#
 
 <h3 align=center> Modified (M)</h3>
 
