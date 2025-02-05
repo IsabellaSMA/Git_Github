@@ -10,4 +10,6 @@ Os problemas do GitHub foram criados para acompanhar ideias, comentários, taref
 * Uma linha específica de código.
 * Uma consulta de URL.
 
+### Criando um problema a partir de um repositório
+
 
