@@ -13,9 +13,11 @@ Os problemas do GitHub foram criados para acompanhar ideias, comentários, taref
 
 ### Criando um problema a partir de um repositório
 
-* No GitHub, acesse a página principal do repositório.
-* No nome do repositório, selecione Problemas(Issues).
-* Selecione Novo problema.
-* Se o seu repositório usar modelos de problemas, ao lado do tipo de problema que você deseja abrir, selecione Introdução.
-* Se o tipo de problema que você deseja criar não estiver incluído nas opções disponíveis, selecione **Criar um problema em branco**. Se não estiver usando modelos, pule para a próxima etapa.
+1 No GitHub, acesse a página principal do repositório.
+2 No nome do repositório, selecione Problemas(Issues).
+3 Selecione Novo problema.
+4 Se o seu repositório usar modelos de problemas, ao lado do tipo de problema que você deseja abrir, selecione Introdução.
+5 Se o tipo de problema que você deseja criar não estiver incluído nas opções disponíveis, selecione **Criar um problema em branco**. Se não estiver usando modelos, pule para a próxima etapa.
+
+## Discussões
 
