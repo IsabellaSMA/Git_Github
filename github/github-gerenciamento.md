@@ -11,3 +11,11 @@ Você pode optar por assinar notificações para:
 * Atividade de CI, como o status de fluxos de trabalho nos repositórios configurados com GitHub Actions.
 * Problemas de repositório, solicitações de pull, versões, alertas de segurança ou discussões (se habilitados).
 * Todas as atividades em um repositório.
+
+Em alguns casos, você é inscrito automaticamente em conversas no GitHub. Por exemplo, abrir uma pull request ou problema, comentar em um thread e ser atribuído a um problema ou pull request.
+
+Se não estiver mais interessado em uma conversa, cancele a assinatura dela, deixe de acompanhar ou personalize os tipos de notificações que você receberá no futuro.
+
+Se você estiver interessado em questões que mencionam um determinado usuário, você pode usar menções: como o qualificador para encontrar esses problemas específicos.
+
+## Github Pages
