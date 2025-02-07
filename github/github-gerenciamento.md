@@ -19,3 +19,4 @@ Se não estiver mais interessado em uma conversa, cancele a assinatura dela, dei
 Se você estiver interessado em questões que mencionam um determinado usuário, você pode usar menções: como o qualificador para encontrar esses problemas específicos.
 
 ## Github Pages
+O GitHub Pages é um serviço de hospedagem de sites estáticos que obtém arquivos HTML, CSS e JavaScript diretamente de um repositório no GitHub. Opcionalmente, você pode executar os arquivos através de um processo de build e publicar um site. Edite e efetue push das suas alterações e pronto, seu projeto está ao vivo para o público de maneira visualmente organizada.
