@@ -14,3 +14,7 @@ No entanto, podem ser usadas para uma ampla variedade de tarefas:
 Elas são definidos no YAML e permanecem dentro de repositórios do GitHub. As ações são executadas em "executores", sejam hospedados pelo GitHub ou auto-hospedados. As ações de contribuição podem ser encontradas no GitHub Marketplace.
 
 <h2 align=center> Fluxo do Actions</h2>
+
+O GitHub rastreia eventos que ocorrem. Os eventos podem disparar o início dos fluxos de trabalho. Fluxos de trabalho são a unidade de automação. Eles contêm Trabalhos.Os trabalhos usam Ações para fazer o trabalho.
+
+Os fluxos de trabalho também podem iniciar conforme cronogramas baseados em cron e ser disparados por eventos fora do GitHub ,eles podem ser disparados manualmente.
