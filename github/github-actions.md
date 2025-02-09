@@ -10,3 +10,5 @@ No entanto, podem ser usadas para uma ampla variedade de tarefas:
 * Disparar revisões de código.
 * Tratar solicitações de pull.
 * Gerenciamento de branch.
+
+Elas são definidos no YAML e permanecem dentro de repositórios do GitHub. As ações são executadas em "executores", sejam hospedados pelo GitHub ou auto-hospedados. As ações de contribuição podem ser encontradas no GitHub Marketplace.
