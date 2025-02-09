@@ -18,3 +18,6 @@ Elas são definidos no YAML e permanecem dentro de repositórios do GitHub. As a
 O GitHub rastreia eventos que ocorrem. Os eventos podem disparar o início dos fluxos de trabalho. Fluxos de trabalho são a unidade de automação. Eles contêm Trabalhos.Os trabalhos usam Ações para fazer o trabalho.
 
 Os fluxos de trabalho também podem iniciar conforme cronogramas baseados em cron e ser disparados por eventos fora do GitHub ,eles podem ser disparados manualmente.
+
+
+<h2 align=center> Noções básicas de fluxos de trabalho </h2>
