@@ -29,7 +29,7 @@ Os fluxos de trabalho são escritos em YAML e ao vivo em um repositório do GitH
 Exemplo de um fluxo de trabalho:
 
 `YAML`
-# .github/workflows/build.yml
+#.github/workflows/build.yml
 name: Node Build.
 
 on: [push]
