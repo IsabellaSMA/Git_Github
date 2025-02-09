@@ -21,3 +21,38 @@ Os fluxos de trabalho também podem iniciar conforme cronogramas baseados em cro
 
 
 <h2 align=center> Noções básicas de fluxos de trabalho </h2>
+
+Os fluxos de trabalho definem a automação necessária. Ele detalha os eventos que devem disparar o fluxo de trabalho. Além disso, define os trabalhos que devem ser executados quando o fluxo de trabalho é disparado. O trabalho define o local no qual as ações serão executadas, por exemplo, qual executor usar.
+
+Os fluxos de trabalho são escritos em YAML e ao vivo em um repositório do GitHub no local .github/workflows
+
+Exemplo de um fluxo de trabalho:
+
+`YAML`
+# .github/workflows/build.yml
+name: Node Build.
+
+on: [push]
+
+jobs:
+    mainbuild: 
+ 
+  runs-on: ${{ matrix.os }}
+     
+  strategy:
+      matrix:
+          node-version: [12.x]
+          os: [windows-latest]
+         
+steps:
+
+  - uses: actions/checkout@v1
+- name: Run node.js on latest Windows.
+  uses: actions/setup-node@v1
+  with:
+        ode-version: ${{ matrix.node-version }}
+
+    - name: Install NPM and build.
+      run: |
+        npm ci
+        npm run build
