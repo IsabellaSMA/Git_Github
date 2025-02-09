@@ -56,3 +56,9 @@ steps:
       run: |
         npm ci
         npm run build
+
+<h3 align=center>Mais informações</h3>
+
+encontrar um conjunto de fluxos de trabalho de início aqui: [Fluxos de trabalho iniciais.](https://github.com/actions/starter-workflows)
+
+sintaxe acessível para fluxos de trabalho: [sintaxe de fluxo de trabalho para o GitHub Actions](https://docs.github.com/pt/actions/writing-workflows/workflow-syntax-for-github-actions)
