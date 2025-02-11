@@ -6,3 +6,4 @@ relacionado a tudo mesmo
 inclusive matemática 
 mas também quero focar na prog
 tenho medo de nao arrumar emprego na area
+e também nao quero ficar muito triste por causa disso 
