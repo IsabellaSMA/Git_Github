@@ -9,3 +9,4 @@ tenho medo de nao arrumar emprego na area
 e também nao quero ficar muito triste por causa disso 
 
 ate agora tem 8 commits hj
+9 contando agora 
