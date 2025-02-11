@@ -7,3 +7,5 @@ inclusive matemática
 mas também quero focar na prog
 tenho medo de nao arrumar emprego na area
 e também nao quero ficar muito triste por causa disso 
+
+ate agora tem 8 commits hj
