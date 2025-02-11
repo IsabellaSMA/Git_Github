@@ -5,3 +5,4 @@ tenho que voltar a dar uma estudada
 relacionado a tudo mesmo 
 inclusive matemática 
 mas também quero focar na prog
+tenho medo de nao arrumar emprego na area
