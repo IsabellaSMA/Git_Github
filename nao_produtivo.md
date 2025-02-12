@@ -16,3 +16,4 @@ ate agora tem 8 commits hj
 
 11 fev
 mais um dia onde nao consegui fazer o novo curso
+como posso melhorar se não consigo organizar a rotina?
