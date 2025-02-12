@@ -25,3 +25,4 @@ o que é ser júnior?
 enfim, vejo um vídeo sobre isso depois
 vou voltar a commitar numeros pois palavras sao complicadas
 quero poder escrever como se fosse um diar
+mas ter que commitar a cada mudança é cansativo 
