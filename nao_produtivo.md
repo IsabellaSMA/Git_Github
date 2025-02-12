@@ -15,7 +15,9 @@ ate agora tem 8 commits hj
 12 esta bom oara esse dia: 10fev
 
 11 fev
+
 mais um dia onde nao consegui fazer o novo curso
 como posso melhorar se não consigo organizar a rotina?
 a culpa é minha 
 devo me esforçar mais, se nao nao serei nem uma dev júnior 
+afinal, como vou saber que melhorei?
