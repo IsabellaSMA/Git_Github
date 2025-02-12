@@ -22,3 +22,4 @@ a culpa é minha
 devo me esforçar mais, se nao nao serei nem uma dev júnior 
 afinal, como vou saber que melhorei?
 o que é ser júnior?
+enfim, vejo um vídeo sobre isso depois
