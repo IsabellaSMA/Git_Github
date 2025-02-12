@@ -18,3 +18,4 @@ ate agora tem 8 commits hj
 mais um dia onde nao consegui fazer o novo curso
 como posso melhorar se não consigo organizar a rotina?
 a culpa é minha 
+devo me esforçar mais, se nao nao serei nem uma dev júnior 
