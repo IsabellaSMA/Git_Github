@@ -15,3 +15,4 @@ ate agora tem 8 commits hj
 12 esta bom oara esse dia: 10fev
 
 11 fev
+mais um dia onde nao consegui fazer o novo curso
