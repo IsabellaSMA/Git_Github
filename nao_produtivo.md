@@ -27,4 +27,4 @@ vou voltar a commitar numeros pois palavras sao complicadas
 quero poder escrever como se fosse um diar
 mas ter que commitar a cada mudança é cansativo 
 aparentemente fiz 11 commits ate agora, vou deixar no padrão 12
-13..
+13.. finalizar com 14 para deixar mais verde
