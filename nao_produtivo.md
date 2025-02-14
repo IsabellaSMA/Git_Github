@@ -36,3 +36,6 @@ Hoje irei dar continuidade ao curso de Github.
 
 
 Alem disso, **seria bom editar o git-comandos** deixar mais bunitin e atualizado, ja que eu quero postar no Linkedin esse projeto
+
+
+espero que hj eu consiga estudar..e se eu arrumar um estágio? Será que eu daria conta da rotina em casa e projetos?
