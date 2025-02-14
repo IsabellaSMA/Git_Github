@@ -33,3 +33,6 @@ aparentemente fiz 11 commits ate agora, vou deixar no padrão 12
 14 fevereiro
 
 Hoje irei dar continuidade ao curso de Github.
+
+
+Alem disso, **seria bom editar o git-comandos** deixar mais bunitin e atualizado, ja que eu quero postar no Linkedin esse projeto
