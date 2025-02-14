@@ -28,3 +28,8 @@ quero poder escrever como se fosse um diar
 mas ter que commitar a cada mudança é cansativo 
 aparentemente fiz 11 commits ate agora, vou deixar no padrão 12
 13.. finalizar com 14 para deixar mais verde
+
+
+14 fevereiro
+
+Hoje irei dar continuidade ao curso de Github.
