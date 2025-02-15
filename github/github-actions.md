@@ -29,27 +29,28 @@ Os fluxos de trabalho são escritos em YAML e ao vivo em um repositório do GitH
 Exemplo de um fluxo de trabalho:
 
 `YAML`
-#.github/workflows/build.yml
-name: Node Build.
 
-on: [push]
+    #.github/workflows/build.yml
+    name: Node Build.
 
-jobs:
+    on: [push]
+
+    jobs:
     mainbuild: 
  
-  runs-on: ${{ matrix.os }}
+      runs-on: ${{ matrix.os }}
      
-  strategy:
-      matrix:
-          node-version: [12.x]
-          os: [windows-latest]
+      strategy:
+          matrix:
+              node-version: [12.x]
+              os: [windows-latest]
          
-steps:
+    steps:
 
-  - uses: actions/checkout@v1
-- name: Run node.js on latest Windows.
-  uses: actions/setup-node@v1
-  with:
+    - uses: actions/checkout@v1
+    - name: Run node.js on latest Windows.
+      uses: actions/setup-node@v1
+      with:
         ode-version: ${{ matrix.node-version }}
 
     - name: Install NPM and build.
