@@ -4,6 +4,7 @@ Um trabalho é um conjunto de etapas que serão executadas em ordem em um execut
 
 <h2 align=center>Trabalhos com dependências</h2>
 Por padrão, se um fluxo de trabalho contiver vários trabalhos, eles serão executados em paralelo. Exemplo:
+
 `YAML`
 
     jobs:
@@ -20,7 +21,23 @@ Por padrão, se um fluxo de trabalho contiver vários trabalhos, eles serão exe
       - run: ./build_new_server.sh
 
 
+Às vezes, talvez seja necessário que um trabalho aguarde a conclusão de outro.
 
+Você pode fazer isso definindo dependências entre os trabalhos, como no exemplo abaixo.
+
+`YAML`
+
+    jobs:
+      startup:
+        runs-on: ubuntu-latest
+        steps:
+
+      - run: ./setup_server_configuration.sh
+      build:
+        needs: startup
+        steps:
+
+      - run: ./build_new_server.sh
 
 
 
