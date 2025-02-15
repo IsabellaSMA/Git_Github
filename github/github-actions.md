@@ -60,6 +60,19 @@ Exemplo de um fluxo de trabalho:
 
 <h2 align=center> Elementos de sintaxe de fluxo de trabalho padrão</h2>
 
+**Nome**: é o nome do fluxo de trabalho. É opcional, mas altamente recomendável. Aparece em vários locais na interface do usuário do GitHub.
+
+**On:** é o evento ou a lista de eventos que dispararão o fluxo de trabalho.
+
+**Trabalhos:** é a lista de trabalhos a serem executados. Os fluxos de trabalho podem conter um ou mais trabalhos.
+
+**Executa em**: informa a Actions que executor usar.
+
+**Etapas**: é a lista de etapas para o trabalho. As etapas dentro de um trabalho são executadas no mesmo executor.
+
+**Usa**: informa a Actions que ação predefinida precisa ser recuperada. Por exemplo, você pode ter uma ação que instala o Node.js.
+
+**Executar**: informa o trabalho para executar um comando no executor. Por exemplo, você pode executar um comando NPM.
 
 
 
