@@ -58,6 +58,15 @@ Exemplo de um fluxo de trabalho:
         npm ci
         npm run build
 
+<h2 align=center> Elementos de sintaxe de fluxo de trabalho padrão</h2>
+
+
+
+
+
+
+
+
 <h3 align=center>Mais informações</h3>
 
 encontrar um conjunto de fluxos de trabalho de início aqui: [Fluxos de trabalho iniciais.](https://github.com/actions/starter-workflows)
