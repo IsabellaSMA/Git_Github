@@ -40,31 +40,7 @@ Você pode fazer isso definindo dependências entre os trabalhos, como no exempl
       - run: ./build_new_server.sh
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Para mais informações sobre dependências de trabalho..[acesse aqui](https://docs.github.com/pt/actions/writing-workflows/about-workflows)
 
 
 
