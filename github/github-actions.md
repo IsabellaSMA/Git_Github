@@ -72,7 +72,7 @@ Exemplo de um fluxo de trabalho:
 
 **Usa**: informa a Actions que ação predefinida precisa ser recuperada. Por exemplo, você pode ter uma ação que instala o Node.js.
 
-**Executar**: informa o trabalho para executar um comando no executor. Por exemplo, você pode executar um comando NPM.
+**Executar**: informa o trabalho para executar um comando no executor. Por exemplo, você pode executar um comando NPM[^1]
 
 
 
@@ -84,4 +84,4 @@ Exemplo de um fluxo de trabalho:
 
 encontrar um conjunto de fluxos de trabalho de início aqui: [Fluxos de trabalho iniciais.](https://github.com/actions/starter-workflows)
 
-sintaxe acessível para fluxos de trabalho: [sintaxe de fluxo de trabalho para o GitHub Actions](https://docs.github.com/pt/actions/writing-workflows/workflow-syntax-for-github-actions)
+[^1]:sintaxe acessível para fluxos de trabalho: [sintaxe de fluxo de trabalho para o GitHub Actions](https://docs.github.com/pt/actions/writing-workflows/workflow-syntax-for-github-actions)
