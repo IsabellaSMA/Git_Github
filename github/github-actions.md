@@ -84,7 +84,7 @@ Exemplo de um fluxo de trabalho:
 
 <h4 align=center><a href="https://github.com/IsabellaSMA/Git_Github/blob/main/github/github-eventos.md">Eventos</a></h4>
 <h4 align=center><a href="https://github.com/IsabellaSMA/Git_Github/blob/main/github/github-trabalhos.md">Trabalhos</a></h4>
-
-encontrar um conjunto de fluxos de trabalho de início aqui: [Fluxos de trabalho iniciais.](https://github.com/actions/starter-workflows)
+<h4 align=center><a href="https://github.com/IsabellaSMA/Git_Github/blob/main/github/github-executores.md">Executores</a></h4>
+<h4 align=center><a href="https://github.com/IsabellaSMA/Git_Github/blob/main/github/github-testes.md">Testes</a></h4>
 
 [^1]:sintaxe acessível para fluxos de trabalho: [sintaxe de fluxo de trabalho para o GitHub Actions](https://docs.github.com/pt/actions/writing-workflows/workflow-syntax-for-github-actions)
