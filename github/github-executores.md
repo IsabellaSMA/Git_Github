@@ -5,3 +5,6 @@ Os executores do GitHub são recursos de computação que executam fluxos de tra
 Há dois tipos principais de executores do GitHub:
 * **Hospedados**: recursos de computação virtualizados, fornecidos e gerenciados pelo github;
 * **auto-hospedados**: recursos de computação físicos,virualizados ou em containers que os usuários ou organizações do github provisionam por conta própria.
+
+<h2 align=center>Executores hospedados no GitHub</h2>
+
