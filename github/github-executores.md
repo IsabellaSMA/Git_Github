@@ -22,3 +22,11 @@ Há alguns limites para o uso do GitHub Actions ao usar os executores hospedados
 Antes de implementar os executores hospedados no GitHub, os usuários precisam ter um repositório do GitHub em que possam definir fluxos de trabalho usando o GitHub Actions. Os executores estão disponíveis para todos os usuários do GitHub com acesso ao GitHub Actions.
 
 <h3 align=center>Implementação</h3>
+Ao contrário dos executores auto-hospedados, aqueles hospedados no GitHub são provisionados automaticamente como parte de uma execução de fluxo de trabalho individual. Os usuários definem fluxos de trabalho como arquivos formatados em YAML armazenados no diretório .github/workflows em repositórios do GitHub. Dentro da configuração do fluxo de trabalho, os usuários especificam o ambiente desejado do executor, incluindo o sistema operacional e as dependências de software. Os executores com especificações correspondentes são configurados sob demanda sempre que o fluxo de trabalho é disparado, com um executor por trabalho. Os gatilhos podem ser manuais ou automáticos, com base em eventos como pushes de código, solicitações de pull ou eventos de expedição de repositório.
+Os executores hospedados no GitHub autenticam-se com o GitHub usando tokens ou credenciais fornecidas pelo GitHub Actions. Eles dependem da conectividade interna para se comunicar com a plataforma GitHub e baixar artefatos de fluxo de trabalho.
+
+<h3 align=center>Manutenção</h3>
+O GitHub gerencia atualizações e manutenção de executores hospedados no GitHub, garantindo que eles permaneçam atualizados com as versões de software mais recentes e patches de segurança. As ferramentas de software incluídas nos executores são atualizadas semanalmente. As atividades do executor são monitoradas e registradas em log, facilitando o acompanhamento de execuções de fluxo de trabalho e solução de problemas.
+
+<h3 align=center>Licenciamento e custo</h3>
+Os executores hospedados no GitHub estão incluídos nos preços do GitHub Actions, com cobrança baseada em uso para minutos de fluxo de trabalho além da camada gratuita. Os usuários se beneficiam da escala automatizada e econômica, pois o GitHub provisiona e desaloca automaticamente os executores com base na demanda
