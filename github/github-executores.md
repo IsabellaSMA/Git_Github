@@ -38,3 +38,23 @@ os auto-hospedados fornecem opções de controle e personalização maiores, com
 Os executores auto-hospedados são provisionados e gerenciados pelos usuários, dando-lhes controle total sobre o ambiente de execução. Eles são totalmente personalizáveis, incluindo especificações de hardware, configurações de software e configurações de rede. Eles também facilitam a integração com a infraestrutura e as ferramentas existentes, minimizando a possibilidade de problemas de compatibilidade e interoperabilidade.
 
 Ao contrário dos executores hospedados pelo GitHub, não há limites para o tempo necessário para concluir uma execução de trabalho individual e execuções de fluxo de trabalho.
+
+<h3 align=center>Pré-requisitos</h3>
+Os usuários precisam preparar e configurar executores auto-hospedados na infraestrutura escolhida por eles, incluindo a instalação do software executor e quaisquer dependências de software adicionais. O código-fonte para os executores auto-hospedados está disponível como um projeto de código aberto no GitHub em https://github.com/actions/runner. Cada executor auto-hospedado atua como um agente que se comunica com o GitHub Actions para executar fluxos de trabalho.
+
+Os executores auto-hospedados exigem conectividade de rede de saída, credenciais de autenticação e autorização para acessar a plataforma GitHub e baixar artefatos de fluxo de trabalho. Dependendo do local dos executores, talvez seja necessário configurar regras de firewall para atender a esses requisitos.
+
+<h3 align=center>Implementação</h3>
+Assim como acontece com os executores hospedados no GitHub, a implementação envolve a definição de fluxos de trabalho formatados por YAML e o armazenamento do diretório .github/workflows nos repositórios do GitHub. No entanto, para que os fluxos de trabalho usem executores auto-hospedados, os usuários precisam registrá-los primeiro, fornecendo os tokens ou credenciais de autenticação necessários. Como parte do registro, os usuários especificam características como o nome do executor, bem como rótulos e parâmetros do ambiente de execução.
+
+O registro pode ocorrer em diferentes níveis em uma empresa:
+
+Nível do repositório (repositório único)
+Nível organizacional (vários repositórios em uma organização)
+Nível empresarial (várias organizações em uma empresa)
+
+<h3 align=center>Manutenção</h3>
+Os usuários são responsáveis por atualizar e manter executores auto-hospedados, incluindo a instalação de atualizações de software e patches de segurança. A manutenção também envolve o monitoramento da integridade e do desempenho do executor, bem como a solução de problemas que surgem em todo o runtime do executor.
+
+<h3 align=center>Licenciamento e custos</h3>
+Os executores auto-hospedados não incorrem em encargos de licenciamento adicionais além dos preços do GitHub Actions e dos custos de infraestrutura associados, incluindo computação, armazenamento e rede. Otimizar a alocação e a utilização de recursos torna-se responsabilidade do usuário.
