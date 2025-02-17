@@ -8,3 +8,6 @@ Selecione Ações no menu do repositório superior para ver uma lista de fluxos 
 Em seguida, clique no nome do trabalho para ver a saída das etapas.![console-output-from-actions-63af6157](https://github.com/user-attachments/assets/a6788057-fad0-4162-a9e0-304ad106f70d)
 A saída do console pode ajudar na depuração.
 
+<h2 align=center>Release Management para Actions
+É possivel solicitar uma versão específica da ação de várias maneiras:
+
