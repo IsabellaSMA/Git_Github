@@ -11,3 +11,21 @@ A saída do console pode ajudar na depuração.
 <h2 align=center>Release Management para Actions
 É possivel solicitar uma versão específica da ação de várias maneiras:
 
+<h3 align=center>Marcações</h3>
+As tags permitem que você especifique as versões com que deseja trabalhar
+
+`YAML`
+
+    steps:
+    -uses: actions/install-timer@v2.0.1
+
+<h3 align=center> Hashes baseados em SHA</h3>
+Você pode especificar um hash baseado em SHA solicitado para uma ação. Ele garante que a ação não foi alterada. No entanto, a desvantagem disso é que você também não receberá atualizações para a ação automaticamente.
+
+`YAML`
+
+     steps:
+    -uses: actions/install-timer@327239021f7cc39fe7327647b213799853a9eb98
+
+<h3 align=center>Branches</h3>
+Uma forma comum de solicitar ações é se referir à ramificação com que você quer trabalhar. Em seguida, você obterá a versão mais recente dessa ramificação. Isso significa que você se beneficiará das atualizações, mas também aumentará a chance de interrupção do código.
