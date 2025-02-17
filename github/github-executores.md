@@ -28,5 +28,7 @@ Os executores hospedados no GitHub autenticam-se com o GitHub usando tokens ou c
 <h3 align=center>Manutenção</h3>
 O GitHub gerencia atualizações e manutenção de executores hospedados no GitHub, garantindo que eles permaneçam atualizados com as versões de software mais recentes e patches de segurança. As ferramentas de software incluídas nos executores são atualizadas semanalmente. As atividades do executor são monitoradas e registradas em log, facilitando o acompanhamento de execuções de fluxo de trabalho e solução de problemas.
 
+<h2 align=center>Executores auto-hospedados</h2>
+
 <h3 align=center>Licenciamento e custo</h3>
 Os executores hospedados no GitHub estão incluídos nos preços do GitHub Actions, com cobrança baseada em uso para minutos de fluxo de trabalho além da camada gratuita. Os usuários se beneficiam da escala automatizada e econômica, pois o GitHub provisiona e desaloca automaticamente os executores com base na demanda
