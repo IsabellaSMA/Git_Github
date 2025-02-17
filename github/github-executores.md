@@ -8,3 +8,4 @@ Há dois tipos principais de executores do GitHub:
 
 <h2 align=center>Executores hospedados no GitHub</h2>
 
+Os executores hospedados no GitHub oferecem uma solução conveniente para executar fluxos de trabalho no GitHub Actions, eliminando a necessidade de administrar os componentes de hardware e software subjacentes.
