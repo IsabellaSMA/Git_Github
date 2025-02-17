@@ -17,3 +17,8 @@ istema operacional. Por exemplo, os executores do Ubuntu e do macOS incluem grep
 Os executores hospedados no GitHub são executados na infraestrutura de nuvem do GitHub, aproveitando máquinas virtuais ou contêineres para executar fluxos de trabalho. Cada execução de fluxo de trabalho é isolada em um ambiente próprio, garantindo segurança e reprodutibilidade. Os executores hospedados no GitHub integram-se perfeitamente ao GitHub Actions, permitindo que os usuários os referenciem diretamente nos fluxos de trabalho hospedados nos repositórios do GitHub.
 
 Há alguns limites para o uso do GitHub Actions ao usar os executores hospedados no GitHub. Em particular, cada trabalho em um fluxo de trabalho tem o máximo de seis horas de tempo de execução. Se um trabalho atingir esse limite, o trabalho será terminado e não será completado. Cada execução de fluxo de trabalho é limitada a 35 dias. Se uma execução de fluxo de trabalho atingir esse limite, a execução dela será cancelada. Esse período inclui a duração da execução e o tempo gasto em espera e aprovação.
+
+<h3 align=center>Pré-requisitos</h3>
+Antes de implementar os executores hospedados no GitHub, os usuários precisam ter um repositório do GitHub em que possam definir fluxos de trabalho usando o GitHub Actions. Os executores estão disponíveis para todos os usuários do GitHub com acesso ao GitHub Actions.
+
+<h3 align=center>Implementação</h3>
