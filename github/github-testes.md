@@ -29,3 +29,11 @@ Você pode especificar um hash baseado em SHA solicitado para uma ação. Ele ga
 
 <h3 align=center>Branches</h3>
 Uma forma comum de solicitar ações é se referir à ramificação com que você quer trabalhar. Em seguida, você obterá a versão mais recente dessa ramificação. Isso significa que você se beneficiará das atualizações, mas também aumentará a chance de interrupção do código.
+
+`YAML`
+
+    steps:
+    -uses: actions/install-timer@develop
+
+<h2 align=center>Testar uma ação</h2>
+O github usa ferramentas de aprendizado para ações, <a href="https://github.com/skills/hello-github-actions" blank="">acesse essa</a>
