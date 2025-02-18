@@ -12,3 +12,5 @@ Receber uma notificação por push quando alguém mencionar seu nome de usuário
 Agende suas notificações por push para horários personalizados específicos.
 Proteger sua conta no GitHub.com com uma autenticação de dois fatores.
 Verificar suas tentativas de login em dispositivos não reconhecidos.
+
+<h2 align=center> GitHub Desktop </h2 
