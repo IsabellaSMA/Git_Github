@@ -23,3 +23,5 @@ Adicionar alterações ao seu commit de forma interativa.
 Adicione rapidamente coautores ao seu commit.
 Fazer o checkout de branches com solicitações de pull e conferir os status de CI.
 Comparar imagens alteradas.
+
+<h2 align=center> Cobranças </h2 
