@@ -25,3 +25,9 @@ Fazer o checkout de branches com solicitações de pull e conferir os status de 
 Comparar imagens alteradas.
 
 <h2 align=center> Cobranças </h2 
+O GitHub cobra separadamente por cada conta. Você recebe uma fatura separada para sua conta pessoal e para cada conta corporativa ou de organização que você possui.
+
+A cobrança de cada conta é uma combinação de cobranças por suas assinaturas e cobrança baseada no uso.
+
+As Assinaturas incluem o plano da sua conta, como o GitHub Pro ou o GitHub Team, e produtos pagos que têm um custo mensal consistente, como o GitHub Copilot e aplicativos do GitHub Marketplace.
+A cobrança baseada no uso se aplica quando o custo de um produto pago depende de quanto você deve usar o produto. Por exemplo, o custo do GitHub Actions depende de quantos minutos seus trabalhos passam em execução e da quantidade de armazenamento que seus artefatos utilizam.
