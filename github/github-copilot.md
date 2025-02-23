@@ -15,7 +15,7 @@ O GitHub Copilot Chat é treinado em um grande corpo de código, mas ainda tem u
 Possíveis desvios
 Os dados de treinamento do GitHub Copilot são extraídos de repositórios de código existentes que podem conter desvios e erros. O GitHub Copilot poderá perpetuar os desvios se eles existirem nos dados de treinamento. O GitHub Copilot Chat pode ser tendencioso em relação a determinadas linguagens de programação ou estilos de codificação, o que pode levar a sugestões de código abaixo do ideal ou incompletas.
 
-Riscos à segurança
+### Riscos à segurança
 O Copilot Chat gera código com base no contexto do código que está sendo escrito, que pode potencialmente expor informações confidenciais ou vulnerabilidades se não for usado com cuidado. Você deve ter cuidado ao usar o Copilot Chat para gerar código para aplicativos sensíveis à segurança e sempre examinar e testar o código gerado minuciosamente.
 
 Correspondências com código público
