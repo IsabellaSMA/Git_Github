@@ -21,7 +21,7 @@ O Copilot Chat gera código com base no contexto do código que está sendo escr
 ### Correspondências com código público
 O Copilot Chat é capaz de gerar um novo código e faz isso de forma probabilística. A probabilidade de o Copilot Chat produzir um código que corresponda ao código no conjunto de treinamento é baixa, mas não zero. Uma sugestão do Copilot Chat pode conter alguns snippets de código que correspondem ao código no conjunto de treinamento. O Copilot Chat usa filtros que bloqueiam correspondências com código público em repositórios do GitHub, mas você ainda deve tomar precauções. Você deve tratar as sugestões do GitHub Copilot da mesma maneira que trataria qualquer código que use um material que você não criou. Isso inclui precauções para garantir sua adequação. Isso inclui testes rigorosos, verificação de IP e acompanhamento de vulnerabilidades de segurança. Você deve verificar se o IDE ou o editor não compila ou executa automaticamente o código gerado antes de revisá-lo.
 
-Código impreciso
+### Código impreciso
 O GitHub Copilot Chat pode gerar um código que parece ser válido, mas não é. O código pode não estar semanticamente ou sintaticamente correto, ou pode não refletir com precisão a intenção do desenvolvedor. Para atenuar o risco de código impreciso, você deve examinar e testar cuidadosamente o código gerado. Isso é particularmente importante ao lidar com aplicativos críticos ou confidenciais. Você também deve garantir que o código gerado siga práticas recomendadas e os padrões de design e se encaixe na arquitetura geral e no estilo da base de código.
 
 Respostas imprecisas a tópicos de não codificação
