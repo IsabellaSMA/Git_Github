@@ -18,7 +18,7 @@ Os dados de treinamento do GitHub Copilot são extraídos de repositórios de c�
 ### Riscos à segurança
 O Copilot Chat gera código com base no contexto do código que está sendo escrito, que pode potencialmente expor informações confidenciais ou vulnerabilidades se não for usado com cuidado. Você deve ter cuidado ao usar o Copilot Chat para gerar código para aplicativos sensíveis à segurança e sempre examinar e testar o código gerado minuciosamente.
 
-Correspondências com código público
+### Correspondências com código público
 O Copilot Chat é capaz de gerar um novo código e faz isso de forma probabilística. A probabilidade de o Copilot Chat produzir um código que corresponda ao código no conjunto de treinamento é baixa, mas não zero. Uma sugestão do Copilot Chat pode conter alguns snippets de código que correspondem ao código no conjunto de treinamento. O Copilot Chat usa filtros que bloqueiam correspondências com código público em repositórios do GitHub, mas você ainda deve tomar precauções. Você deve tratar as sugestões do GitHub Copilot da mesma maneira que trataria qualquer código que use um material que você não criou. Isso inclui precauções para garantir sua adequação. Isso inclui testes rigorosos, verificação de IP e acompanhamento de vulnerabilidades de segurança. Você deve verificar se o IDE ou o editor não compila ou executa automaticamente o código gerado antes de revisá-lo.
 
 Código impreciso
