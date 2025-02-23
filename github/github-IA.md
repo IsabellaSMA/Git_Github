@@ -31,3 +31,19 @@ O Copilot Studio é uma ferramenta de criação de copilotos que permite que os 
 
 No Copilot Studio, é fácil criar copilotos sem a necessidade de cientistas de dados ou desenvolvedores. A plataforma oferece vários modelos e ferramentas para te ajudar a projetar e treinar chatbots, tornando o processo inicial mais fácil. O Copilot Studio também inclui recursos para monitorar o desempenho dos chatbots, analisar interações dos usuários e melhorar os fluxos de conversação ao longo do tempo.
 
+
+## SDK do Semantic Kernel
+O SDK Semantic Kernel permite que desenvolvedores implementem interações com modelos de IA em seus projetos de código já existentes.
+
+Os modelos de IA de hoje em dia conseguem gerar facilmente respostas de texto e imagens com base em solicitações fornecidas pelos usuários. Embora essa funcionalidade seja útil ao desenvolver um aplicativo de chat simples, não é suficiente criar agentes de IA totalmente automatizados que possam automatizar processos empresariais e capacitar usuários a alcançar mais. Para isso, você precisa de uma estrutura que possa tirar as respostas desses modelos e usá-las para influenciar e oferecer suporte a ações dentro do código existente. O SDK do Semantic Kernel proporciona a estrutura necessária para criar esses tipos de projetos.
+
+O Semantic Kernel é um SDK de código aberto que possibilita a criação simplificada de agentes capazes de interagir com modelos de IA e utilizar respostas para aprimorar o seu código já existente. Como é um SDK altamente extensível, você pode usar o Semantic Kernel com modelos do OpenAI, Azure OpenAI, Hugging Face e outros. Ao combinar seu código C#, Python e Java com esses modelos, você pode criar agentes que ampliam suas aplicações de maneiras que antes eram impossíveis.
+
+## Visual Studio IntelliCode
+O Visual Studio IntelliCode é uma extensão do Visual Studio que aprimora a experiência de programação fornecendo recomendações potencializadas por IA. O IntelliCode usa modelos de aprendizado de máquina treinados em milhares de projetos de código aberto para sugerir preenchimentos de código apropriados para o contexto. A extensão oferece suporte a várias linguagens de programação e ajuda os desenvolvedores a escrever códigos mais confiáveis e de fácil manutenção.
+
+Recursos do Visual Studio IntelliCode:
+
+* Preenchimentos de código potencializados por IA: oferece sugestões inteligentes que vão além de simples listas alfabéticas, compreendendo padrões e práticas de programação.
+* Assistência de refatoração: recomenda onde a refatoração de código pode ser benéfica e dá assistência para fazer alterações.
+* Inferência de estilo de programação: aprende suas preferências de estilo de programação e as aplica à medida que você programa, garantindo um código com estilo consistente em seu projeto.
