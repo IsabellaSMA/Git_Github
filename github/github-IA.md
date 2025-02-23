@@ -18,6 +18,16 @@ O Portal da Fábrica de IA do Azure é ideal para desenvolvedores que querem exp
 ## AI Builder
 O AI Builder é um recurso do Microsoft Power Platform que possibilita aos usuários adicionar funcionalidades de IA a seus aplicativos sem precisar de conhecimentos avançados em ciência de dados. O recurso fornece modelos de IA predefinidos para tarefas comuns, como previsão, processamento de formulário, detecção de objetos e classificação de texto. Os usuários também podem criar modelos de IA personalizados para atender às necessidades específicas dos negócios usando os próprios dados.
 
-O AI Builder oferece os seguintes recursos: Modelos de IA predefinidos: inclui modelos para tarefas comuns, como previsão, processamento de formulário, detecção de objetos e classificação de texto.
-Modelos personalizados: permite que você crie modelos personalizados adaptados às necessidades específicas dos negócios usando seus próprios dados.
-Integração fácil: integra perfeitamente os recursos de IA em aplicativos criados com o Power Apps, melhorando a experiência e a eficiência do usuário.
+O AI Builder oferece os seguintes recursos: 
+* Modelos de IA predefinidos: inclui modelos para tarefas comuns, como previsão, processamento de formulário, detecção de objetos e classificação de texto.
+* Modelos personalizados: permite que você crie modelos personalizados adaptados às necessidades específicas dos negócios usando seus próprios dados.
+* Integração fácil: integra perfeitamente os recursos de IA em aplicativos criados com o Power Apps, melhorando a experiência e a eficiência do usuário.
+
+O AI Builder é recomendado para usuários que desejam adicionar recursos de IA aos seus aplicativos sem a necessidade de escrever código ou conhecimentos avançados em ciência de dados. Essa ferramenta fornece uma interface amigável para criar e implantar modelos de IA, tornando-se acessível para uma ampla gama de usuários. Analistas de negócios, desenvolvedores e desenvolvedores cidadãos podem aproveitar o AI Builder para aprimorar seus aplicativos com funcionalidades de IA.
+
+## Copilot Studio
+
+O Copilot Studio é uma ferramenta de criação de copilotos que permite que os usuários criem e gerenciem chatbots alimentados por IA. A ferramenta fornece uma interface visual para criar fluxos de conversação, treinar chatbots e monitorar seu desempenho. O Copilot Studio dá suporte ao reconhecimento de linguagem natural (NLU) e aos recursos de geração de linguagem natural (NLG), permitindo que os usuários criem chatbots capazes de entender e responder a consultas dos usuários.
+
+No Copilot Studio, é fácil criar copilotos sem a necessidade de cientistas de dados ou desenvolvedores. A plataforma oferece vários modelos e ferramentas para te ajudar a projetar e treinar chatbots, tornando o processo inicial mais fácil. O Copilot Studio também inclui recursos para monitorar o desempenho dos chatbots, analisar interações dos usuários e melhorar os fluxos de conversação ao longo do tempo.
+
