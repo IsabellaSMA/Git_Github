@@ -9,7 +9,7 @@ O GitHub Copilot é implementado usando duas extensões para o Visual Studio Cod
 
 <h2 align=center> Limitações do GitHub Copilot Chat</h2>
 
-Escopo limitado
+### Escopo limitado
 O GitHub Copilot Chat é treinado em um grande corpo de código, mas ainda tem um escopo limitado. Ele pode não ser capaz de lidar com algumas estruturas de código complexas ou linguagens de programação obscuras. Para cada linguagem de programação, a qualidade das sugestões recebidas pode depender do volume e da diversidade de dados de treinamento para esse idioma. Por exemplo, o JavaScript é bem representado em repositórios públicos e é uma das linguagens com melhor suporte do GitHub Copilot. Linguagens com menos representação em repositórios públicos podem ser mais desafiadoras para o Copilot Chat. Além disso, o Copilot Chat só pode sugerir código com base no contexto do código que está sendo escrito, portanto, ele pode não ser capaz de identificar problemas maiores de design ou arquitetura.
 
 Possíveis desvios
