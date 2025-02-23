@@ -47,3 +47,10 @@ Recursos do Visual Studio IntelliCode:
 * Preenchimentos de código potencializados por IA: oferece sugestões inteligentes que vão além de simples listas alfabéticas, compreendendo padrões e práticas de programação.
 * Assistência de refatoração: recomenda onde a refatoração de código pode ser benéfica e dá assistência para fazer alterações.
 * Inferência de estilo de programação: aprende suas preferências de estilo de programação e as aplica à medida que você programa, garantindo um código com estilo consistente em seu projeto.
+
+## ChatGPT
+O ChatGPT é um modelo de IA conversacional desenvolvido pela OpenAI, capaz de participar de diálogos semelhantes aos humanos sobre uma ampla gama de temas. A ferramenta foi desenvolvida para gerar respostas coerentes e contextualmente relevantes para as consultas dos usuários. O ChatGPT pode ser usado em chatbots, assistentes virtuais e outros aplicativos conversacionais para oferecer interações envolventes e informativas.
+
+Também é possível usar o ChatGPT para gerar trechos de código, explicar conceitos de programação e auxiliar na depuração de tarefas. No entanto, é importante ressaltar que o ChatGPT não foi projetado para tarefas de programação e nem sempre fornecerá sugestões de código precisas ou relevantes. Os desenvolvedores devem usar o ChatGPT como um modelo de IA conversacional de uso geral e verificar a exatidão de suas respostas antes de incorporá-las em seu código.
+
+Como o ChatGPT não está integrado a um ambiente de desenvolvimento, pode mais adequado para gerar ideias ou explicações em vez de escrever códigos diretamente. Os desenvolvedores podem usar o ChatGPT para conceber ideias de soluções, esclarecer conceitos ou explorar novas ideais antes de implementá-las na base de código.
