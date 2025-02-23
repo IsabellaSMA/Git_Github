@@ -15,4 +15,9 @@ O Portal da Fábrica de IA do Azure também inclui recursos para preparação de
 
 O Portal da Fábrica de IA do Azure é ideal para desenvolvedores que querem experimentar modelos de aprendizado de máquina sem precisar escrever código ou gerenciar a infraestrutura. Essa ferramenta fornece uma interface amigável para criar e implantar modelos de IA, tornando-se acessível para uma ampla gama de desenvolvedores.
 
-## 
+## AI Builder
+O AI Builder é um recurso do Microsoft Power Platform que possibilita aos usuários adicionar funcionalidades de IA a seus aplicativos sem precisar de conhecimentos avançados em ciência de dados. O recurso fornece modelos de IA predefinidos para tarefas comuns, como previsão, processamento de formulário, detecção de objetos e classificação de texto. Os usuários também podem criar modelos de IA personalizados para atender às necessidades específicas dos negócios usando os próprios dados.
+
+O AI Builder oferece os seguintes recursos: Modelos de IA predefinidos: inclui modelos para tarefas comuns, como previsão, processamento de formulário, detecção de objetos e classificação de texto.
+Modelos personalizados: permite que você crie modelos personalizados adaptados às necessidades específicas dos negócios usando seus próprios dados.
+Integração fácil: integra perfeitamente os recursos de IA em aplicativos criados com o Power Apps, melhorando a experiência e a eficiência do usuário.
