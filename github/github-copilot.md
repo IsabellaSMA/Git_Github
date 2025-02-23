@@ -24,5 +24,5 @@ O Copilot Chat é capaz de gerar um novo código e faz isso de forma probabilís
 ### Código impreciso
 O GitHub Copilot Chat pode gerar um código que parece ser válido, mas não é. O código pode não estar semanticamente ou sintaticamente correto, ou pode não refletir com precisão a intenção do desenvolvedor. Para atenuar o risco de código impreciso, você deve examinar e testar cuidadosamente o código gerado. Isso é particularmente importante ao lidar com aplicativos críticos ou confidenciais. Você também deve garantir que o código gerado siga práticas recomendadas e os padrões de design e se encaixe na arquitetura geral e no estilo da base de código.
 
-Respostas imprecisas a tópicos de não codificação
+### Respostas imprecisas a tópicos de não codificação
 O Copilot Chat não foi projetado para responder a perguntas não codificadas e, portanto, suas respostas podem nem sempre ser precisas ou úteis nesses contextos. Se um usuário fizer uma pergunta de não codificação ao Copilot Chat, ele poderá gerar uma resposta irrelevante ou sem sentido, ou pode simplesmente indicar que não é possível fornecer uma resposta útil.
