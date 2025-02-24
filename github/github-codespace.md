@@ -57,3 +57,17 @@ Somente Codespaces em execução incorrem em encargos de CPU. Um Codespace parad
 Você pode parar e reiniciar um Codespace para aplicar alterações. Por exemplo, se você alterar o tipo de computador usado no Codespace, precisará parar e reiniciá-lo para que a alteração entre em vigor. Quando você fecha ou para o Codespace, todas as alterações não confirmadas são preservadas até você se conectar novamente ao Codespace.
 
 Você também pode parar o Codespace e optar por reiniciá-lo ou excluí-lo se encontrar um erro ou algo inesperado.
+
+
+Recompilar um Codespace
+Você pode recompilar o Codespace para implementar alterações em sua configuração de contêiner de desenvolvimento. Para a maioria dos usos, você pode criar um Codespace como alternativa à recompilação de um Codespace. Quando você recompila o Codespace, as imagens do cache aceleram o processo de recompilação. Você também pode executar uma recompilação completa para limpar o cache e recompilar o contêiner com imagens novas.
+
+Quando você recompila o contêiner em um Codespace, as alterações feitas fora do diretório /workspaces são limpas. Alterações feitas dentro do diretório /workspaces, incluindo o clone do repositório ou modelo com base no qual você criou o Codespace, são preservadas em uma recompilação.
+
+Excluir um Codespace
+Você pode criar um Codespace para uma tarefa específica. Após efetuar push de alterações para um branch remoto, você poderá excluir com segurança esse Codespace.
+
+Se você tentar excluir um Codespace com git commits que não foram enviadas por push, o editor notificará você de que há alterações que não foram enviadas por push para um branch remoto. Você pode efetuar push de qualquer alteração desejada e excluir o Codespace. Você também pode excluir o Codespace e as alterações não confirmadas ou exportar o código para um novo branch sem criar um Codespace.
+
+Codespaces parados que permanecem inativos por um período especificado são excluídos automaticamente. Codespaces inativos são excluídos após 30 dias, mas você pode personalizar os intervalos de retenção do Codespace.
+
