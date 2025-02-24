@@ -22,3 +22,11 @@ Ao criar um Codespace sempre que trabalhar em um projeto, você deverá efetuar 
 Administradores de repositório podem habilitar pré-compilações do GitHub Codespaces para um repositório para acelerar a criação do Codespace.
 
 Para obter orientações detalhadas e diretrizes passo a passo, confira os recursos Guia para iniciantes para aprender a codificar com o GitHub Codespaces e Desenvolver em um Codespace, localizados na unidade Resumo no final deste módulo.
+
+## Processo de criação de um codespace
+Ao criar um GitHub Codespace, ocorrem quatro processos:
+
+Uma máquina virtual e um armazenamento são atribuídos ao seu Codespace.
+Um contêiner é criado.
+É feita uma conexão com o Codespace.
+É feita uma configuração pós-criação.
