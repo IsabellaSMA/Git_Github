@@ -71,3 +71,4 @@ Se você tentar excluir um Codespace com git commits que não foram enviadas por
 
 Codespaces parados que permanecem inativos por um período especificado são excluídos automaticamente. Codespaces inativos são excluídos após 30 dias, mas você pode personalizar os intervalos de retenção do Codespace.
 
+## Codespaces versus editor github.dev
