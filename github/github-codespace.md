@@ -78,5 +78,10 @@ Custo	Gratuita	Cota mensal gratuita de uso para contas pessoais.
 Disponibilidade	Disponível para todos no GitHub.com	Disponível para todos no GitHub.com.
 Inicialização	GitHub.dev abre instantaneamente com o pressionar de uma tecla e você pode começar a usá-lo imediatamente, sem ter que esperar pela configuração ou instalação.	Quando você cria ou retoma um Codespace, uma VM é atribuída ao Codespace. O contêiner é então configurado com base no conteúdo de um arquivo devcontainer.json. Essa configuração leva alguns minutos para criar o ambiente de desenvolvimento.
 Computação	Não há recursos de computação associados, portanto você não pode criar e executar seu código ou usar o terminal integrado.	Com o GitHub Codespaces, você tem a potência de uma VM dedicada para executar e depurar seu aplicativo.
+
+
+Você pode começar seu fluxo de trabalho no GitHub.dev e continuar em um Codespace. Se você tentar acessar a Visualização Executar e Depurar ou o Terminal, verá uma notificação de que eles não estão disponíveis em GitHub.dev.
+
+Para continuar o trabalho em um Codespace, selecione Continuar Trabalhando.... Selecione Criar Codespace para criar um Codespace no branch atual. Antes de selecionar esta opção, você precisa fazer commit de quaisquer alterações.
 Acesso ao terminal	Nenhum	O GitHub Codespaces fornece um conjunto comum de ferramentas por padrão, o que significa que você pode usar o Terminal exatamente como faria no ambiente local.
 Extensões	Apenas um subconjunto de extensões que podem ser executadas na Web aparecerão na visualização de extensões e poderão ser instaladas	Com o GitHub Codespaces, você pode usar a maioria das extensões do Marketplace do Visual Studio Cod
