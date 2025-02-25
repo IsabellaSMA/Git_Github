@@ -1,6 +1,9 @@
 <h1 align=center>Github Copilot </h1>
 É um assistente de código que ajuda-nos a ecrever códigos mais rápido com menos eforço dando mais espaço ao programador a focar em outras soluções de problemas, ou seja, ajuda na produtividade.
 
+## Como funciona:
+
+De token em token: subdividindo as coisas para serem escritos.[^1]
 
 
 
@@ -88,3 +91,5 @@ O GitHub Copilot Chat pode gerar um código que parece ser válido, mas não é.
 
 ### Respostas imprecisas a tópicos de não codificação
 O Copilot Chat não foi projetado para responder a perguntas não codificadas e, portanto, suas respostas podem nem sempre ser precisas ou úteis nesses contextos. Se um usuário fizer uma pergunta de não codificação ao Copilot Chat, ele poderá gerar uma resposta irrelevante ou sem sentido, ou pode simplesmente indicar que não é possível fornecer uma resposta útil.
+
+[^1]:Tokenizer
