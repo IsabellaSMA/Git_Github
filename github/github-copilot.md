@@ -5,10 +5,6 @@
 
 De token em token: subdividindo as coisas para serem escritos.[^1]
 
-
-
-
-
 <h2 align=center> Integração do GitHub Copilot ao ambiente de desenvolvedor</h2>
 
 O GitHub Copilot integra-se nativamente ao Visual Studio Code, ao Visual Studio e a outros ambientes de desenvolvedor.
@@ -35,14 +31,13 @@ O modelo de linguagem gera uma resposta com base na análise do prompt de entrad
 ### Formatação de saída
 A resposta gerada pelo Chat do Copilot é formatada e apresentada ao usuário. O Chat do Copilot pode usar realce de sintaxe, recuo e outros recursos de formatação para adicionar clareza à resposta gerada. Dependendo do tipo de pergunta do usuário, links para o contexto que o modelo usou ao gerar uma resposta, como arquivos de código-fonte ou documentação, também podem ser fornecidos.
 
-O Chat do GitHub Copilot destina-se a fornecer a resposta mais relevante para sua pergunta. No entanto, ele pode nem sempre fornecer a resposta que você está procurando. Os usuários do Chat do Copilot são responsáveis por revisar e validar as respostas geradas pelo sistema para garantir que elas sejam precisas e apropriadas.
+**O Chat do GitHub Copilot destina-se a fornecer a resposta mais relevante para sua pergunta. No entanto, ele pode nem sempre fornecer a resposta que você está procurando. Os usuários do Chat do Copilot são responsáveis por revisar e validar as respostas geradas pelo sistema para garantir que elas sejam precisas e apropriadas.** 
 
 <h2 align=center> Casos de uso para o Chat do GitHub Copilot</h2>
 
 ### Explicando e documentando código
 O Chat do Copilot pode ajudar a explicar o código selecionado gerando descrições de linguagem natural da funcionalidade e da finalidade do código. Isso pode ser útil se você quiser entender o comportamento do código ou para stakeholders não técnicos que precisam entender como o código funciona. Por exemplo, se você selecionar uma função ou um bloco de código no editor de código, o Chat do Copilot poderá gerar uma descrição de linguagem natural do que o código faz e como ele se encaixa no sistema geral. Isso pode incluir informações como os parâmetros de entrada e saída da função, as dependências e a finalidade no aplicativo maior.
 
-Ao gerar explicações e documentação, o Chat do Copilot pode ajudar você a entender o código selecionado, levando a uma colaboração aprimorada e um desenvolvimento de software mais eficaz.
 
 ### Respostas a perguntas de codificação
 Você pode pedir ajuda ou esclarecimentos ao Chat do Copilot sobre problemas de codificação específicos e receber respostas no formato de linguagem natural ou no formato de snippet de código. Essa é uma ferramenta útil para programadores porque fornece diretrizes e suporte para tarefas e desafios comuns de codificação.
