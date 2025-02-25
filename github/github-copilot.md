@@ -1,3 +1,11 @@
+<h1 align=center>Github Copilot </h1>
+É um assistente de código que ajuda-nos a ecrever códigos mais rápido com menos eforço dando mais espaço ao programador a focar em outras soluções de problemas, ou seja, ajuda na produtividade.
+
+
+
+
+
+
 <h2 align=center> Integração do GitHub Copilot ao ambiente de desenvolvedor</h2>
 
 O GitHub Copilot integra-se nativamente ao Visual Studio Code, ao Visual Studio e a outros ambientes de desenvolvedor.
