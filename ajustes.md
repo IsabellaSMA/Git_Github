@@ -7,4 +7,5 @@ arrumar os docs do github, a seção de actions está muito poluida, muitos deta
 resumir:
 
 [Codespaces.md](https://github.com/IsabellaSMA/Git_Github/blob/main/github/github-codespace.md)
-Se possivel, pegar a aula de copilot da DIO e atualizar no [github-copilot](https://github.com/IsabellaSMA/Git_Github/blob/main/github/github-copilot.md)
+
+Se possivel, pegar a aula de copilot da DIO e atualizar no [github-copilot](https://github.com/IsabellaSMA/Git_Github/blob/main/github/github-copilot.md), assim como resumir também
