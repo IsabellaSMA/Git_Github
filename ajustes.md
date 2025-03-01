@@ -7,7 +7,7 @@
 | Git                                                                                                                      | Github |
 |----------|----------|
 | Revisar o arquivo [git-comandos.md](https://github.com/IsabellaSMA/Git_Github/blob/main/git/git-comandos.md) | * Resumir o conteúdo do [Codespaces.md](https://github.com/IsabellaSMA/Git_Github/blob/main/github/github-codespace.md)|
-|* Estudar mais sobre e formatar melhor o arquivo [git-ganchos](https://github.com/IsabellaSMA/Git_Github/blob/main/git/git-ganchos.md) | Se possivel, pegar a aula de copilot da DIO e atualizar no [github-copilot](https://github.com/IsabellaSMA/Git_Github/blob/main/github/github-copilot.md), assim como resumir também
+|Estudar mais sobre e formatar o arquivo [git-ganchos](https://github.com/IsabellaSMA/Git_Github/blob/main/git/git-ganchos.md) | Se possivel, pegar a aula de copilot da DIO e atualizar no [github-copilot](https://github.com/IsabellaSMA/Git_Github/blob/main/github/github-copilot.md), assim como resumir também
 |Se existir, adicionar ícones dos [estatus do git](https://github.com/IsabellaSMA/Git_Github/blob/main/git/git-status.md)| o arquivo [github-actions/eventos.md](https://github.com/IsabellaSMA/Git_Github/blob/main/github/github-eventos.md ) parece estar incompleto
 |                                                        | Resumir o segundo texto do arquivo [ithub-actions/executores.md](https://github.com/IsabellaSMA/Git_Github/blob/main/github/github-executores.md)
 |                                      | Formatar e achar mais informações para complementar o arquivo[github-actions/testes.md](https://github.com/IsabellaSMA/Git_Github/blob/main/github/github-testes.md)
