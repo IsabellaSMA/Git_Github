@@ -6,3 +6,5 @@
 
 4 março 
 quase esqueci de hj, vai ser mais um dia nao produtivo, mas sempre tem desses dias
+
+não preciso ficar triste
