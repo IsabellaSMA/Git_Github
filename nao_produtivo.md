@@ -9,4 +9,4 @@ quase esqueci de hj, vai ser mais um dia nao produtivo, mas sempre tem desses di
 
 não preciso ficar triste ou decepcionada quando isso acontece 
 
-6 commits ate agora 7..8 9.. quem diria que ficar doente atrasaria um monte de coisa.. to atrasada ate nesse projeto, 12 commits estão bom
+6 commits ate agora 7..8 9.. quem diria que ficar doente atrasaria um monte de coisa.. to atrasada ate nesse projeto, 12 commits estão bons..na verdade irei ate 14
