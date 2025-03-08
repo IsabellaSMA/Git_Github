@@ -23,4 +23,4 @@ dessa forma fica padronizado as cores verde
 7/03- mais um dia..
 345678910
 
-08/03- fiz um curso para deixar registrados os últimos commits desse projeto. Porém ainda não acabou.
+08/03- fiz um curso para deixar registrados os últimos commits desse projeto. Porém ainda não acabou. há mais coisas para aprender e coleçoes para criar e estudar.. Assim que eu for concluindo os cursos, adicionarei nas pastas separadas.
