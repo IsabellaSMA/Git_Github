@@ -24,3 +24,6 @@ dessa forma fica padronizado as cores verde
 345678910
 
 08/03- fiz um curso para deixar registrados os últimos commits desse projeto. Porém ainda não acabou. há mais coisas para aprender e coleçoes para criar e estudar.. Assim que eu for concluindo os cursos, adicionarei nas pastas separadas. Até a proxima! 
+
+
+dia 12 vou fazer o curso de Github pages
