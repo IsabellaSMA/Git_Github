@@ -30,4 +30,4 @@ dia 12 vou fazer o curso de Github pages
 234567891011
 
 12/03- mais uma vez não consegui
-É muito dificil conciliar faculdade, empreendedorismo, tarefas domesticas e cuidar de um irmão ao mesmo tempo. Agora mesmo, as 22:00 estou terminando de colocar o conteúdo de 1 das 5 materias que tenho em dia. Mas como eu fiquei ruim desde dia 26, meu aniversário, atrasou tudo. Um mês quase de atraso de matéria
+É muito dificil conciliar faculdade, empreendedorismo, tarefas domesticas e cuidar de um irmão ao mesmo tempo. Agora mesmo, as 22:00 estou terminando de colocar o conteúdo de 1 das 5 materias que tenho em dia. Mas como eu fiquei ruim desde dia 26, meu aniversário, atrasou tudo. Um mês quase de atraso de matéria - Sim, estou fazendo com que cada frase seja um commit,
