@@ -30,3 +30,4 @@ dia 12 vou fazer o curso de Github pages
 234567891011
 
 12/03- mais uma vez não consegui
+É muito dificil conciliar faculdade, empreendedorismo, tarefas domesticas e cuidar de um irmão ao mesmo tempo
