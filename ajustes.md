@@ -15,5 +15,6 @@
 |                          | Se mudar o nome do arquivo [github-intro.md](https://github.com/IsabellaSMA/Git_Github/blob/main/github/github-intro.md) para README.md, como ele será mostrado nesse repositório?
 |                                                      | O arquivo [github-produtos.md](https://github.com/IsabellaSMA/Git_Github/blob/main/github/github-produtos.md) apresenta apenas o titulo e links que levam a outros docs, posso usar ele para organizar o repositório para deixar apenas os principais nessa pasta e talvez criar outra com esses markdowns para servir como as abas de páginas
 |           | Estudar sobre o github actions: como funciona a automatização das coisas?
+|            | Editar o arquivo [Github Pages](https://github.com/IsabellaSMA/Git_Github/blob/main/github/github-pages.md)
 
 
